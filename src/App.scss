@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 12px;
+}
+
+.title-section {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1jK9Fv1d06fEEYsWc6Ixg-vzMOQ4R0XQ-kfE3jjqWBUwkkWC');
+  background-size: cover;
+  height: 560px;
+}
+
+.header-menu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.contrast-header__container {
+  width: 60%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.contrast-header__text{
+  background-color: aqua;
+  color: black;
+  box-shadow: 6px 0 0 aqua, -6px 0 0 aqua;
+  line-height: 16px;
+  padding: 1px 0 1px 0;
+}
+
+.titles {
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.content {
+  padding-left: 25px;
+  padding-right: 21px;
+}
+
+.p-contrast {
+  box-shadow: 6px 0 0 white, -6px 0 0 white;
+  line-height: 16px;
+  padding: 1px 0 1px 0;
+  background-color: white;
+  color: black;
+}
+
+.about-section {
+  .content {
+    padding-right: 21px;
+  }
+}

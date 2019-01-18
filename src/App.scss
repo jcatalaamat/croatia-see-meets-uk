@@ -5,19 +5,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.2em;
 }
-
+span {
+  font-size: 12px;
+}
 p {
   font-size: 12px;
 }
 
 .title-section {
-  background-image: url(./assets/img/citiy-bw.jpg);
+  //background-image: url(./assets/img/citiy-bw.jpg);
   background-size: cover;
   height: 560px;
 }
 
 .why-participate {
-  background-image: url(./assets/img/coworking_bw.jpg);
+  //background-image: url(./assets/img/coworking_bw.jpg);
   background-size: cover;
   height: 700px;
 }
@@ -31,11 +33,13 @@ p {
 }
 
 .aqua-header__container {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
   &--small{
     width: 60%;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
@@ -97,7 +101,16 @@ p {
    color: #715dff;
 
    &--underline {
+    color: #715dff;
     text-decoration: underline;
+   }
+
+   &--title {
+    color: #715dff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+    display: inline-block;
    }
  }
 
@@ -139,5 +152,28 @@ p {
       padding-right: 16px;
       padding-bottom: 16px;
     }
+  }
+}
+
+.paddingTop {
+  &--small {
+    padding-top: 8px;
+  }
+}
+
+.bullet {
+  &__container {
+    display: flex;
+    padding-top: 8px;
+  }
+  &__point {
+    padding-top: 2px;
+    color: #715dff;
+    font-size: 10px;
+    padding-right: 4px;
+  }
+  &__text {
+    color: black;
+    font-size: 12px;
   }
 }

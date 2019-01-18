@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderMenu from './HeaderMenu';
+import AquaHeader from './AquaHeader';
 
 const Title = () => (
   <div className="title-section">
@@ -11,14 +12,7 @@ const Title = () => (
     </div>
 
     <div className="content">
-      <div className="aqua-header__container">
-        <h5>
-          <span className="aqua-header__text">
-              London, 28/29 March 2019
-              at TechSpace Shoreditch
-          </span>
-        </h5>
-      </div>
+      <AquaHeader small text="London, 28/29 March 2019 at TechSpace Shoreditch" />
       <p>
         <span className="p-contrast">
             A unique

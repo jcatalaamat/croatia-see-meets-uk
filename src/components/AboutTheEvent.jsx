@@ -1,38 +1,27 @@
 import React from 'react';
 import SmallSection from './SmallSection';
+import AquaHeader from './AquaHeader';
+import PurpleLine from './PurpleLine';
 
 const AboutTheEvent = () => (
   <div className="about-the-event">
     <div className="content">
-      <div className="aqua-header__container">
-        <h2>
-          <span className="aqua-header__text">
-              About the event
-          </span>
-        </h2>
-      </div>
-    </div>
-    <div className="content">
-      <p>
-        <b>
+      <AquaHeader text="About the event" />
+      <div className="introduction">
+        <p>
+          <b>
             The British Croatian Chamber of Commerce (BCCC)
             is offering our latest all-in TECH FUTURES LONDON 2019.
-        </b>
-      </p>
-      <p>
-        <b>
+          </b>
+        </p>
+        <p>
+          <b>
             The Event agenda is designed to mimic, at a high level,
             the typical 3-stage lifecycle of a tech start-up.
-        </b>
-      </p>
-      <div className="purple-header__container">
-        <h5>
-          <span className="purple-header__text">
-              Over the 2 days we'll guide you through the stages
-              of innovation, coding and capital.
-          </span>
-        </h5>
+          </b>
+        </p>
       </div>
+      <PurpleLine text="Over the 2 days we'll guide you through the stages of innovation, coding and capital." />
     </div>
     <SmallSection header={'The "Innovation" stage'}>
       <p>
@@ -44,9 +33,8 @@ exploit potential market gaps.
       </p>
     </SmallSection>
     <div className="separator" />
-    <div className="section--white">
-      <SmallSection header={'The "Coding" stage'}>
-        <p>
+    <SmallSection header={'The "Coding" stage'}>
+      <p>
 Like a true start-up, delegates will do the legwork to begin to
 move from ideas and inception into creation. The morning of the
 second day will consist of professional training in blockchain (we
@@ -58,10 +46,12 @@ lower-level coding and how to set up and run an ICO and STO
 etc. Training will be provided by the BCCC's own accredited
 educator and delegates will receive a full training certificate (the
 accreditation for the event training will most likely be provided by
-the UK CPD Accreditation Service).
-        </p>
-      </SmallSection>
-    </div>
+the UK
+        {' '}
+        <span className="purple--underline">CPD Accreditation Service</span>
+).
+      </p>
+    </SmallSection>
     <div className="separator" />
     <SmallSection header={'The final "Capital" stage'}>
       <p>

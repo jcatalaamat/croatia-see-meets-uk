@@ -131,7 +131,6 @@ associates.
         <Bullet text="Delegates returning to Zagreb with BCCC are invited to travel with us courtesy of our private coach transfer to London Heathrow airport" />
       </div>
     </div>
-    <div className="separator" />
   </div>
 );
 

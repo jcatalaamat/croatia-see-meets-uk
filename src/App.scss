@@ -66,7 +66,6 @@ p {
 }
 
 .title-section {
-  //background-color: darkslategray;
   background-image: url(./assets/img/citiy-bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
@@ -76,40 +75,107 @@ p {
 }
 
 .why-participate {
-  //background-color: darkslategray;
   background-image: url(./assets/img/coworking_bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
 }
 
 .encode-program {
-  //background-color: darkslategray;
   background-image: url(./assets/img/coworking_space_bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
 }
 
 .about-bccc {
-  //background-color: darkslategray;
   background-image: url(./assets/img/gerkhin-bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
 }
 
 .about-the-event {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  background-color: white;
+  
+  .content {
+    padding-right: 21px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    padding-bottom: 150px;
+    background-image: url(./assets/png/Croatia_event_web_2-10.png);
+    background-position: 5% 110%;
+    background-size: 25%;
+    background-repeat: no-repeat;
+  }
 }
 
 .agenda {
-  padding-bottom: 50px;
+  @media only screen and (max-width: 960px) {
+    padding-bottom: 50px;
+  }
+}
+
+.day-one {
+  @media only screen and (min-width: 960px) {
+    background-image: url(./assets/png/Croatia_event_web_2-06.png);
+    background-position: 112% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+}
+
+.day-two {
+  @media only screen and (min-width: 960px) {
+    background-image: url(./assets/png/Croatia_event_web_2-08.png);
+    background-position: 107% 50%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+  }
+}
+
+.day-three {
+  @media only screen and (min-width: 960px) {
+    padding-bottom: 50px;
+    background-image: url(./assets/png/Croatia_event_web_2-11.png);
+    background-position: 95% -40%;
+    background-size: 22%;
+    background-repeat: no-repeat;
+  }
+}
+
+.question-mark {
+  @media only screen and (min-width: 960px) {
+    background-image: url(./assets/png/Croatia_event_web_2-07.png);
+    background-position: 105% 95%;
+    background-size: 22%;
+    background-repeat: no-repeat;
+  }
+}
+
+.electron {
+  @media only screen and (min-width: 960px) {
+    background-image: url(./assets/png/Croatia_event_web_2-09.png);
+    background-position: 108% 85%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+  }
 }
 
 .how-to-apply {
   padding-bottom: 50px;
+  @media only screen and (min-width: 960px) {
+    padding-bottom: 0;
+  }
 }
 
 .media {
   padding-bottom: 50px;
+  @media only screen and (min-width: 960px) {
+    background-image: url(./assets/png/Croatia_event_web_2-12.png);
+    background-position: 95% 140%;
+    background-size: 27%;
+    background-repeat: no-repeat;
+  }
 }
 
 .no-margin {
@@ -242,16 +308,6 @@ p {
   padding: 1px 0 1px 0;
   background-color: white;
   color: black;
-}
-
-.about-the-event {
-  background-color: white;
-  .content {
-    padding-right: 21px;
-  }
-  @media only screen and (min-width: 768px) {
-    padding-bottom: 100px;
-  }
 }
 
 .purple-header__container {
@@ -507,5 +563,22 @@ p {
   &__container {
     display: flex;
     justify-content: center;
+  }
+}
+
+.about-img {
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  &__wrapper {
+    //display: none;
+    @media only screen and (min-width: 768px) {
+      position: relative;
+      height: 300px;
+      width: 300px;
+    }
   }
 }

@@ -6,31 +6,32 @@ import Bullet from './Bullet';
 
 const HowToApply = () => (
   <div className="how-to-apply">
-    <div className="content">
-      <AquaHeader spacingTop text="How much does it cost?" />
-      <AquaHeader text="And how do I apply?" />
-      <div className="encode-text">
-        <p>
+    <div className="question-mark">
+      <div className="content">
+        <AquaHeader spacingTop text="How much does it cost?" />
+        <AquaHeader text="And how do I apply?" />
+        <div className="encode-text">
+          <p>
 The Event will be split at two delegate levels (2 day and 1 day package) with the
 overall Event price adjusted accordingly. Our estimate currently is for a charge of
 GBP 1499 per delegate (2 day) and GBP 999 per delegate (1 day), with discounts
 for early and group bookings.
 
-        </p>
-        <p>
+          </p>
+          <p>
 The event has a minimum of 30 and maximum 50 delegates capacity for the first
 day and 100 for the second day.
 
-        </p>
-        <p>
+          </p>
+          <p>
 Due to limited capacity and the all-in package arrangement applications for the
 event are done in a
-          {' '}
-          <b>two stage process</b>
+            {' '}
+            <b>two stage process</b>
 .
-        </p>
+          </p>
+        </div>
       </div>
-
     </div>
     <div className="separator" />
     <div className="content">
@@ -100,31 +101,34 @@ Stephen: +44 (0) 7973 666178 –
       </div>
     </div>
     <div className="separator" />
-    <div className="content">
-      <AquaHeader medium text="Second Step" />
-      <div className="encode-text">
-        <p>
+    <div className="electron">
+      <div className="content">
+        <AquaHeader medium text="Second Step" />
+        <div className="encode-text">
+          <p>
 Once the potential capacity is reached you will receive an email and/or call back
 from the BCCC representative.
-        </p>
-        <p>
+          </p>
+          <p>
 You will then be emailed with the exact participation fees for you or your group and
 applicable early-bird discounts.
-        </p>
-        <p>
+          </p>
+          <p>
 Only then will you be allowed to progress with the official registration process via
 the then attached form, payment details and terms and conditions of your
 application.
-        </p>
-        <p>
+          </p>
+          <p>
 You will receive the email/call back by 20th February 2019. Formal application
 process will be
-          {' '}
-          <b>closed by 15th March 2019</b>
-          {' '}
+            {' '}
+            <b>closed by 15th March 2019</b>
+            {' '}
 or reaching of full capacity (whichever
 comes first).
-        </p>
+          </p>
+        </div>
+
       </div>
     </div>
   </div>

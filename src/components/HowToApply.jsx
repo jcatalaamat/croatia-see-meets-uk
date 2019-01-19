@@ -71,28 +71,33 @@ Stephen: +44 (0) 7973 666178 –
       </div>
     </div>
     <div className="two-columns">
-      <div className="content">
-        <PurpleLine spacingTop text="About attendees (if more than one, please fill out for each person)" />
-        <Bullet text="Company" />
-        <Bullet text="Number of persons attending" />
-        <Bullet text="Title, First Name and Last Name" />
-        <Bullet text="Job Title" />
-        <Bullet text="City" />
-        <Bullet text="Country" />
-        <Bullet text="Corporate Website" />
-        <Bullet text="Telephone" />
-        <Bullet text="Email" />
-        <Bullet text="LinkedIn" />
-        <Bullet text="Will you be requiring a CPQ Certificate: Yes | No" />
-      </div>
-      <div className="content">
-        <PurpleLine spacingTop text="Are you a Delegate, Investor or Pitcher?" />
-        <Bullet text="Attending as: Delegate | Investor | Startup" />
-        <Bullet text="Dates Attending: Day 1 | Day 2" />
-        <Bullet text="Dates Required for Accommodation: Wednesday 27th | Thursday 28th | Friday 29th | Saturday 30th" />
-        <Bullet text="Please ask questions and write all your comments." />
-      </div>
+      <div className="column">
+        <div className="column-inner">
+          <PurpleLine spacingTop text="About attendees (if more than one, please fill out for each person)" />
+          <Bullet text="Company" />
+          <Bullet text="Number of persons attending" />
+          <Bullet text="Title, First Name and Last Name" />
+          <Bullet text="Job Title" />
+          <Bullet text="City" />
+          <Bullet text="Country" />
+          <Bullet text="Corporate Website" />
+          <Bullet text="Telephone" />
+          <Bullet text="Email" />
+          <Bullet text="LinkedIn" />
+          <Bullet text="Will you be requiring a CPQ Certificate: Yes | No" />
+        </div>
 
+      </div>
+      <div className="column">
+        <div className="column-inner">
+          <PurpleLine spacingTop text="Are you a Delegate, Investor or Pitcher?" />
+          <Bullet text="Attending as: Delegate | Investor | Startup" />
+          <Bullet text="Dates Attending: Day 1 | Day 2" />
+          <Bullet text="Dates Required for Accommodation: Wednesday 27th | Thursday 28th | Friday 29th | Saturday 30th" />
+          <Bullet text="Please ask questions and write all your comments." />
+        </div>
+
+      </div>
     </div>
     <div className="separator" />
     <div className="content">
@@ -121,7 +126,6 @@ or reaching of full capacity (whichever
 comes first).
         </p>
       </div>
-
     </div>
   </div>
 );

@@ -130,6 +130,31 @@ p {
   }
 }
 
+.stage {
+  padding-bottom: 50px;
+  @media only screen and (min-width: 960px) {
+    max-width: 350px;
+    padding-bottom: 0;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  &__container {
+    padding-left: 25px;
+    padding-right: 21px;
+    @media only screen and (min-width: 768px) {
+      padding-left: 100px;
+    }
+    @media only screen and (min-width: 960px) {
+      padding-right: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+
 .aqua-header__container {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -224,6 +249,9 @@ p {
   .content {
     padding-right: 21px;
   }
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 100px;
+  }
 }
 
 .purple-header__container {
@@ -291,6 +319,28 @@ p {
   &--underline {
    color: #00ffff;
    text-decoration: underline;
+  }
+}
+
+.two-columns {
+  padding-left: 100px;
+  @media only screen and (min-width: 960px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+}
+
+.column {
+  @media only screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.column-inner {
+  @media only screen and (min-width: 768px) {
+    width: 400px;
+    padding-right: 50px
   }
 }
 

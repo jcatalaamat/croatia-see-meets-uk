@@ -23,8 +23,10 @@ const AboutTheEvent = () => (
       </div>
       <PurpleLine spacing text="Over the 2 days we'll guide you through the stages of innovation, coding and capital." />
     </div>
-    <SmallSection header={'The "Innovation" stage'}>
-      <p className="no-margin">
+    <div className="stage__container">
+      <div className="stage">
+        <SmallSection header={'The "Innovation" stage'}>
+          <p className="no-margin">
       During 4 inspirational panels we'll look to
 create ideas, brainstorm what’s out there,
 peer ahead in terms of where all this
@@ -32,11 +34,13 @@ innovation and technology might be going,
 think about what’s marketable (and what's
 not), where and how we can identify and
 exploit potential market gaps.
-      </p>
-    </SmallSection>
-    <div className="separator" />
-    <SmallSection header={'The "Coding" stage'}>
-      <p className="no-margin">
+          </p>
+        </SmallSection>
+      </div>
+      {/* <div className="separator" /> */}
+      <div className="stage">
+        <SmallSection header={'The "Coding" stage'}>
+          <p className="no-margin">
       Like a true start-up, delegates will do the
 legwork to begin to move from ideas and
 inception into creation. The morning of the
@@ -53,14 +57,17 @@ the BCCC's own accredited educator and
 delegates will receive a full training
 certificate (the accreditation for the event
 training will be provided by the UK
-        {' '}
-        <span className="purple--underline">CPD Accreditation Service</span>
+            {' '}
+            <span className="purple--underline">CPD Accreditation Service</span>
 ).
-      </p>
-    </SmallSection>
-    <div className="separator" />
-    <SmallSection header={'The final "Capital" stage'}>
-      <p className="no-margin">
+          </p>
+        </SmallSection>
+
+      </div>
+      {/* <div className="separator" /> */}
+      <div className="stage">
+        <SmallSection header={'The final "Capital" stage'}>
+          <p className="no-margin">
       Is funding. We'll hold our own (real) pitch
 event, at both investment and technology
 levels. Approx. 6 Croatian and SEE start-ups
@@ -70,8 +77,12 @@ to venture capitalists and all flavours in
 between. It's a tough crowd and delegates
 will witness the meeting of creativity and
 capital first-hand.
-      </p>
-    </SmallSection>
+          </p>
+        </SmallSection>
+
+      </div>
+    </div>
+
   </div>
 );
 

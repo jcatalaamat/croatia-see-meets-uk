@@ -3,13 +3,66 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.2em;
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 54px;
+  }
 }
-span {
-  //font-size: 12px;
+
+h2 {
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 48px;
+  }
 }
+
+h3 {
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 34px;
+  }
+}
+
+h4 {
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  @media only screen and (max-width: 768) {
+    //font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 17px;
+  }
+}
+
 p {
-  font-size: 12px;
+  @media only screen and (max-width: 768) {
+    font-size: 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 17px;
+  }
 }
 
 .title-section {
@@ -17,6 +70,9 @@ p {
   background-image: url(./assets/img/citiy-bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 200px;
+  }
 }
 
 .why-participate {
@@ -68,19 +124,45 @@ p {
   background-color: transparent;
 }
 
+.introduction {
+  @media only screen and (min-width: 768px) {
+    max-width: 480px;
+  }
+}
+
 .aqua-header__container {
   padding-top: 8px;
   padding-bottom: 8px;
 
+  @media only screen and (min-width: 768px) {
+    max-width: 815px;
+  }
+
+  &--medium {
+    @media only screen and (min-width: 768px) {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
   &--small{
     width: 60%;
-    padding-top: 8px;
+    padding-top: 16px;
     padding-bottom: 8px;
+    @media only screen and (min-width: 768px) {
+      width: 100%;
+    }
   }
 
   &--spacing {
     padding-top: 40px;
     padding-bottom: 20px;
+
+    @media only screen and (min-width: 768px) {
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
   }
   &--spacingTop {
     padding-top: 20px;
@@ -99,14 +181,34 @@ p {
   color: white;
   padding-left: 30px;
   padding-right: 30px;
+  @media only screen and (min-width: 768px) {
+    padding-left: 100px;
+  }
 }
 .content {
   padding-left: 25px;
   padding-right: 21px;
+  @media only screen and (min-width: 768px) {
+    padding-left: 100px;
+  }
+}
+
+.p-max {
+  
+  @media only screen and (max-width: 768) {
+    max-width: 400px;
+  }
+  @media only screen and (min-width: 768px) {
+    max-width: 615px;
+  }
 }
 
 .p-size {
   font-size: 12px;
+  
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 .p-contrast {
@@ -131,6 +233,10 @@ p {
   &--spacingTop {
     padding-top: 20px;
   }
+
+  @media only screen and (min-width: 768px) {
+    max-width: 490px;
+  }
 }
 
 .purple-header__text {
@@ -148,6 +254,11 @@ p {
    width: 100%;
    height: 1px;
    background-color: #cccccc;
+   
+   @media only screen and (min-width: 768px) {
+      margin-top: 60px;
+      margin-bottom: 40px;
+  }
  }
 
  .purple {
@@ -156,7 +267,9 @@ p {
    &--underline {
     color: #715dff;
     text-decoration: underline;
+    font-weight: 500;
    }
+
 
    &--title {
     color: #715dff;
@@ -164,6 +277,11 @@ p {
     font-weight: bold;
     padding-top: 8px;
     display: inline-block;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 18px;
+      padding-top: 16px;
+    }
    }
  }
 
@@ -176,11 +294,27 @@ p {
   }
 }
 
-.why-participate__container--square {
-  padding-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.why-participate__container {
+  &--text {
+    max-width: 700px;
+  }
+
+  &--square {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: 768px) {
+      padding-left: 20px;
+      padding-right: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .box-purple {
@@ -192,6 +326,10 @@ p {
   align-items: center;
   justify-content: center;
 
+  @media only screen and (min-width: 768px) {
+    width: 300px;
+  }
+
   &__header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -200,11 +338,20 @@ p {
 
   &__text {
     font-size: 12px;
+    @media only screen and (min-width: 768px) {
+      font-size: 17px;
+    }
 
     &-container {
       padding-left: 16px;
       padding-right: 16px;
       padding-bottom: 16px;
+
+      @media only screen and (min-width: 768px) {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+      }
     }
   }
 }
@@ -212,23 +359,46 @@ p {
 .paddingTop {
   &--small {
     padding-top: 8px;
+    @media only screen and (min-width: 768px) {
+      padding-top: 20px;
+    }
   }
+}
+
+.day-agenda {
+  max-width: 600px;
 }
 
 .bullet {
   &__container {
     display: flex;
     padding-top: 8px;
+    
+    @media only screen and (min-width: 768px) {
+      padding-top: 16px;
+    }
   }
   &__point {
     padding-top: 2px;
     color: #715dff;
     font-size: 10px;
     padding-right: 4px;
+    @media only screen and (min-width: 768px) {
+      font-size: 12px;
+    }
   }
   &__text {
     color: black;
     font-size: 12px;
+    @media only screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.encode-text {
+  @media only screen and (min-width: 768px) {
+    max-width: 650px;
   }
 }
 
@@ -237,21 +407,52 @@ p {
   background-color: #cccccc;
   font-size: 12px;
   color: #525659;
+  @media only screen and (min-width: 768px) {
+    padding: 0;
+    height: 70px
+  }
+}
+
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
 }
+
 .terms-privacy {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  @media only screen and (min-width: 768px) {
+    width: 350px;
+    justify-content: space-between;
+    font-size: 14px;
+  }
 }
 
 .copyrights {
   width: 80%;
   font-size: 12px;
   text-align: center;
+
+  @media only screen and (min-width: 768px) {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+
+    p {
+      font-size: 14px;
+    }
+  }
 
   &__container {
     display: flex;

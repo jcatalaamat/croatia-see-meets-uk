@@ -5,6 +5,7 @@ const AquaHeader = (props) => {
   const {
     text,
     small,
+    medium,
     spacing,
     spacingTop,
   } = props;
@@ -12,7 +13,8 @@ const AquaHeader = (props) => {
     'aqua-header__container--spacing': spacing,
     'aqua-header__container--spacingTop': spacingTop,
     'aqua-header__container--small': small,
-    'aqua-header__container': !spacing && !spacingTop && !small,
+    'aqua-header__container--medium': medium,
+    'aqua-header__container': true,
   });
 
   return small ? (

@@ -15,7 +15,7 @@ const Agenda = () => (
       <div className="paddingTop--small">
         <PurpleLine spacing text="Venue: TechSpace Shoreditch" />
       </div>
-      <div>
+      <div className="day-agenda">
         <Day text="Day 0 (27 March 2019):" />
 
         <Bullet text="Arrivals to London" />
@@ -26,7 +26,7 @@ const Agenda = () => (
     </div>
     <div className="separator" />
     <div className="content">
-      <div>
+      <div className="day-agenda">
         <Day text="Day 1 (28 March 2019):" />
 
         <TimeDay text="Morning & Afternoon (9:30 am - 4:30 pm)" />
@@ -72,7 +72,7 @@ associates.
     </div>
     <div className="separator" />
     <div className="content">
-      <div>
+      <div className="day-agenda">
         <Day text="Day 2 (29 March 2019):" />
 
         <TimeDay text="Morning (start at 9.00 am)" />
@@ -121,7 +121,7 @@ associates.
     </div>
     <div className="separator" />
     <div className="content">
-      <div>
+      <div className="day-agenda">
         <Day text="Day 3 (30 March 2019):" />
 
         <TimeDay text="Morning" />

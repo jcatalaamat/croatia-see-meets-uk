@@ -6,7 +6,7 @@ const PurpleLine = (props) => {
   const containerClass = classnames({
     'purple-header__container--spacing': spacing,
     'purple-header__container--spacingTop': spacingTop,
-    'purple-header__container': !spacing && !spacingTop,
+    'purple-header__container': true,
   });
   return (
     <div className={containerClass}>

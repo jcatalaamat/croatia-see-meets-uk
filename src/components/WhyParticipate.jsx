@@ -5,7 +5,6 @@ const WhyParticipate = () => (
   <div className="why-participate">
     <div className="content">
       <AquaHeader spacing text="Why should I participate?" />
-
       <div className="why-participate__container">
         <div className="why-participate__container--text">
           <p>
@@ -69,7 +68,7 @@ const WhyParticipate = () => (
         </div>
       </div>
     </div>
-
+    <div className="bottom-arrow bottom-arrow-third" />
   </div>
 );
 

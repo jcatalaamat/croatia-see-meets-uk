@@ -82,9 +82,7 @@ capital first-hand.
 
       </div>
     </div>
-    {/* <div className="about-img__wrapper">
-      <img alt="" className="about-img" src="../assets/png/Croatia_event_web_2-10.png" />
-    </div> */}
+    <div className="bottom-arrow bottom-arrow-second" />
   </div>
 );
 

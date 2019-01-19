@@ -74,7 +74,8 @@ Stephen: +44 (0) 7973 666178 –
     <div className="two-columns">
       <div className="column">
         <div className="column-inner">
-          <PurpleLine spacingTop text="About attendees (if more than one, please fill out for each person)" />
+          <PurpleLine spacingTop text="About attendees (if more than one," />
+          <PurpleLine text="please fill out for each person)" />
           <Bullet text="Company" />
           <Bullet text="Number of persons attending" />
           <Bullet text="Title, First Name and Last Name" />

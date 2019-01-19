@@ -10,7 +10,6 @@ const Title = () => (
       <h1>Croatia and SEE* meets the UK</h1>
       <h6>*SEE: Southeastern Europe</h6>
     </div>
-
     <div className="content">
       <AquaHeader small text="London, 28/29 March 2019 at TechSpace Shoreditch" />
       <div className="p-max">
@@ -49,6 +48,7 @@ const Title = () => (
       </div>
 
     </div>
+    <div className="bottom-arrow" />
   </div>
 );
 

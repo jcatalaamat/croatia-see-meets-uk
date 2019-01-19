@@ -57,9 +57,7 @@ h6 {
 }
 
 p {
-  @media only screen and (max-width: 768) {
-    font-size: 12px;
-  }
+  font-size: 12px;
   @media only screen and (min-width: 768px) {
     font-size: 17px;
   }
@@ -68,15 +66,41 @@ p {
 .title-section {
   background-image: url(./assets/img/citiy-bw_op.jpg);
   background-size: cover;
+  background-position-x: center;
+
   padding-bottom: 50px;
-  @media only screen and (min-width: 768px) {
-    padding-bottom: 200px;
-  }
+  // @media only screen and (min-width: 768px) {
+  //   padding-bottom: 200px;
+  // }
 }
+
+
+.bottom-arrow {
+   background-image: url(./assets/png/Croatia_event_web_2-04.png);
+   background-size: 50px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   position: relative;
+   left: 50%;
+
+   width: 50px;
+   height: 70px;
+   &-second {
+    height: 20px;
+   }
+   &-third {
+    height: 80px;
+   }
+    @media only screen and (max-width: 768px) {
+      left: 45%;
+    }
+}
+
 
 .why-participate {
   background-image: url(./assets/img/coworking_bw_op.jpg);
   background-size: cover;
+  background-position-x: center;
   padding-bottom: 50px;
 }
 
@@ -93,7 +117,7 @@ p {
 }
 
 .about-the-event {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: white;
   
   .content {
@@ -101,7 +125,7 @@ p {
   }
 
   @media only screen and (min-width: 960px) {
-    padding-bottom: 150px;
+    //padding-bottom: 150px;
     background-image: url(./assets/png/Croatia_event_web_2-10.png);
     background-position: 5% 110%;
     background-size: 23%;
@@ -196,7 +220,7 @@ p {
 }
 
 .stage {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   @media only screen and (min-width: 960px) {
     max-width: 350px;
     padding-bottom: 0;
@@ -316,7 +340,6 @@ p {
   &--spacingTop {
     padding-top: 20px;
   }
-
   @media only screen and (min-width: 768px) {
     max-width: 490px;
   }
@@ -346,6 +369,7 @@ p {
 
  .purple {
    color: #715dff;
+   font-weight: bold;
 
    &--underline {
     color: #715dff;
@@ -378,8 +402,10 @@ p {
 }
 
 .two-columns {
-  padding-left: 100px;
+  padding-left: 25px;
+  padding-right: 21px;
   @media only screen and (min-width: 960px) {
+    padding-left: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between
@@ -463,7 +489,7 @@ p {
 
 .paddingTop {
   &--small {
-    padding-top: 8px;
+    padding-top: 16px;
     @media only screen and (min-width: 768px) {
       padding-top: 20px;
     }

@@ -6,9 +6,9 @@ import PurpleLine from './PurpleLine';
 const AboutTheEvent = () => (
   <div className="about-the-event">
     <div className="content">
-      <AquaHeader text="About the event" />
+      <AquaHeader spacing text="About the event" />
       <div className="introduction">
-        <p>
+        <p className="no-margin">
           <b>
             The British Croatian Chamber of Commerce (BCCC)
             is offering our latest all-in TECH FUTURES LONDON 2019.
@@ -21,10 +21,10 @@ const AboutTheEvent = () => (
           </b>
         </p>
       </div>
-      <PurpleLine text="Over the 2 days we'll guide you through the stages of innovation, coding and capital." />
+      <PurpleLine spacing text="Over the 2 days we'll guide you through the stages of innovation, coding and capital." />
     </div>
     <SmallSection header={'The "Innovation" stage'}>
-      <p>
+      <p className="no-margin">
       During 4 inspirational panels we'll look to
 create ideas, brainstorm what’s out there,
 peer ahead in terms of where all this
@@ -36,7 +36,7 @@ exploit potential market gaps.
     </SmallSection>
     <div className="separator" />
     <SmallSection header={'The "Coding" stage'}>
-      <p>
+      <p className="no-margin">
       Like a true start-up, delegates will do the
 legwork to begin to move from ideas and
 inception into creation. The morning of the
@@ -60,7 +60,7 @@ training will be provided by the UK
     </SmallSection>
     <div className="separator" />
     <SmallSection header={'The final "Capital" stage'}>
-      <p>
+      <p className="no-margin">
       Is funding. We'll hold our own (real) pitch
 event, at both investment and technology
 levels. Approx. 6 Croatian and SEE start-ups

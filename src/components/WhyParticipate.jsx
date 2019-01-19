@@ -4,7 +4,7 @@ import AquaHeader from './AquaHeader';
 const WhyParticipate = () => (
   <div className="why-participate">
     <div className="content">
-      <AquaHeader text="Why should I participate?" />
+      <AquaHeader spacing text="Why should I participate?" />
 
       <div className="why-participate__container">
         <div className="why-participate__container--text">

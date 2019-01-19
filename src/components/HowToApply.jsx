@@ -7,7 +7,7 @@ import Bullet from './Bullet';
 const HowToApply = () => (
   <div className="how-to-apply">
     <div className="content">
-      <AquaHeader text="How much does it cost?" />
+      <AquaHeader spacingTop text="How much does it cost?" />
       <AquaHeader text="And how do I apply?" />
       <p>
 The Event will be split at two delegate levels (2 day and 1 day package) with the
@@ -44,9 +44,7 @@ or
 or give us a call if you need any
 additional information.
       </p>
-      <Panel title="Zagreb sales">
-        <div><span>Dina: +385 (0) 97 790 9050</span></div>
-      </Panel>
+      <Panel title="Zagreb sales" text="Dina: +385 (0) 97 790 9050" />
       <Panel title="London contacts">
         <div>
           <span>
@@ -68,7 +66,7 @@ Stephen: +44 (0) 7973 666178 –
     </div>
     <div className="two-columns">
       <div className="content">
-        <PurpleLine text="About attendees (if more than one, please fill out for each person)" />
+        <PurpleLine spacingTop text="About attendees (if more than one, please fill out for each person)" />
         <Bullet text="Company" />
         <Bullet text="Number of persons attending" />
         <Bullet text="Title, First Name and Last Name" />
@@ -82,7 +80,7 @@ Stephen: +44 (0) 7973 666178 –
         <Bullet text="Will you be requiring a CPQ Certificate: Yes | No" />
       </div>
       <div className="content">
-        <PurpleLine text="Are you a Delegate, Investor or Pitcher?" />
+        <PurpleLine spacingTop text="Are you a Delegate, Investor or Pitcher?" />
         <Bullet text="Attending as: Delegate | Investor | Startup" />
         <Bullet text="Dates Attending: Day 1 | Day 2" />
         <Bullet text="Dates Required for Accommodation: Wednesday 27th | Thursday 28th | Friday 29th | Saturday 30th" />

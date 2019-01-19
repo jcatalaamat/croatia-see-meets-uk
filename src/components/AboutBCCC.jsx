@@ -4,7 +4,7 @@ import AquaHeader from './AquaHeader';
 const AboutBCCC = () => (
   <div className="about-bccc">
     <div className="content">
-      <AquaHeader text="About British Croatian Chamber of Commerce" />
+      <AquaHeader spacing text="About British Croatian Chamber of Commerce" />
       <p>
         <span className="p-contrast">
 Established in 1998, the BCCC is a long-standing friend of British and Croatian

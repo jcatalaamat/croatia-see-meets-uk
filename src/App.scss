@@ -13,31 +13,51 @@ p {
 }
 
 .title-section {
-  //background-color: darkslategray;
-  background-image: url(./assets/img/citiy-bw.jpg);
+  background-color: darkslategray;
+  //background-image: url(./assets/img/citiy-bw.jpg);
   background-size: cover;
   height: 560px;
 }
 
 .why-participate {
-  //background-color: darkslategray;
-  background-image: url(./assets/img/coworking_bw.jpg);
+  background-color: darkslategray;
+  //background-image: url(./assets/img/coworking_bw.jpg);
   background-size: cover;
   height: 700px;
 }
 
 .encode-program {
-  //background-color: darkslategray;
-  background-image: url(./assets/img/coworking_space_bw.jpg);
+  background-color: darkslategray;
+  //background-image: url(./assets/img/coworking_space_bw.jpg);
   background-size: cover;
   height: 500px;
 }
 
 .about-bccc {
-  //background-color: darkslategray;
-  background-image: url(./assets/img/gerkhin-bw.jpg);
+  background-color: darkslategray;
+  //background-image: url(./assets/img/gerkhin-bw.jpg);
   background-size: cover;
   height: 500px;
+}
+
+.about-the-event {
+  height: 780px;
+}
+
+.agenda {
+  height: 1820px;
+}
+
+.how-to-apply {
+  height: 1480px
+}
+
+.media {
+  height: 200px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .header-menu {
@@ -56,6 +76,14 @@ p {
     width: 60%;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+
+  &--spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &--spacingTop {
+    padding-top: 20px;
   }
 }
 
@@ -77,6 +105,10 @@ p {
   padding-right: 21px;
 }
 
+.p-size {
+  font-size: 12px;
+}
+
 .p-contrast {
   box-shadow: 6px 0 0 white, -6px 0 0 white;
   line-height: 16px;
@@ -93,7 +125,12 @@ p {
 }
 
 .purple-header__container {
-
+  &--spacing {
+    padding-bottom: 20px;
+  }
+  &--spacingTop {
+    padding-top: 20px;
+  }
 }
 
 .purple-header__text {
@@ -140,13 +177,14 @@ p {
 }
 
 .why-participate__container--square {
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .box-purple {
-  width: 300px;
+  width: 260px;
   color: white;
   background-color: #715dff;
   display: flex;

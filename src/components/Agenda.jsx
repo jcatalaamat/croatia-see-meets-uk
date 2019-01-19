@@ -9,11 +9,11 @@ import Panel from './Panel';
 const Agenda = () => (
   <div className="agenda">
     <div className="content">
-      <AquaHeader text="The Agenda" />
+      <AquaHeader spacing text="The Agenda" />
       <PurpleLine text="London 27-30 March 2019" />
       <PurpleLine text="(event takes place on 28-29 March 2019)" />
       <div className="paddingTop--small">
-        <PurpleLine text="Venue: TechSpace Shoreditch" />
+        <PurpleLine spacing text="Venue: TechSpace Shoreditch" />
       </div>
       <div>
         <Day text="Day 0 (27 March 2019):" />
@@ -31,8 +31,7 @@ const Agenda = () => (
 
         <TimeDay text="Morning & Afternoon (9:30 am - 4:30 pm)" />
         <Bullet text="INTRO: Agenda and scene setting" />
-
-        <h5>CPD Accredited training on Blockchain and coding basics</h5>
+        <h5 className="paddingTop--small">CPD Accredited training on Blockchain and coding basics</h5>
 
         <Bullet text='Practical introduction and insights on the history, development, use Blockchain coding practices training application of blockchains and distributed ledger tech, as well as crypto-currencies, including case studies of this tech in action; how "tokens" work; classification of token types; investment options, ICOs and STOs, buying and selling crypto-currencies and more.' />
         <Bullet text="Blockchain coding practices training for novices & intermediates on blockchain technology, coding techniques and technology basics." />
@@ -101,7 +100,7 @@ associates.
         <Bullet text="Coffee, nibbles and smoothies" />
         <div>
           <TimeDay text="Lunch (3.00 pm - 4.30 pm) " />
-          <span>
+          <span className="p-size">
             {' '}
             – a very cool place nearby
           </span>
@@ -113,7 +112,7 @@ associates.
         />
         <div>
           <TimeDay text="Night Out " />
-          <span>
+          <span className="p-size">
             {' '}
             – Blues Kitchen, Shoreditch
           </span>

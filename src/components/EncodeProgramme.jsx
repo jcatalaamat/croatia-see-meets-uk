@@ -4,7 +4,7 @@ import AquaHeader from './AquaHeader';
 const EncodeProgramme = () => (
   <div className="encode-program">
     <div className="content">
-      <AquaHeader text="Diversity, Responsibility and Access: the BCCC Encode Programme" />
+      <AquaHeader spacing text="Diversity, Responsibility and Access: the BCCC Encode Programme" />
       <p>
         <span className="p-contrast">
           The BCCC is pleased to announce that by joining the event you will be sponsoring the attendance of two

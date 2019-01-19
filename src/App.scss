@@ -13,47 +13,47 @@ p {
 }
 
 .title-section {
-  background-color: darkslategray;
-  //background-image: url(./assets/img/citiy-bw.jpg);
+  //background-color: darkslategray;
+  background-image: url(./assets/img/citiy-bw_op.jpg);
   background-size: cover;
-  height: 560px;
+  padding-bottom: 50px;
 }
 
 .why-participate {
-  background-color: darkslategray;
-  //background-image: url(./assets/img/coworking_bw.jpg);
+  //background-color: darkslategray;
+  background-image: url(./assets/img/coworking_bw_op.jpg);
   background-size: cover;
-  height: 700px;
+  padding-bottom: 50px;
 }
 
 .encode-program {
-  background-color: darkslategray;
-  //background-image: url(./assets/img/coworking_space_bw.jpg);
+  //background-color: darkslategray;
+  background-image: url(./assets/img/coworking_space_bw_op.jpg);
   background-size: cover;
-  height: 500px;
+  padding-bottom: 50px;
 }
 
 .about-bccc {
-  background-color: darkslategray;
-  //background-image: url(./assets/img/gerkhin-bw.jpg);
+  //background-color: darkslategray;
+  background-image: url(./assets/img/gerkhin-bw_op.jpg);
   background-size: cover;
-  height: 500px;
+  padding-bottom: 50px;
 }
 
 .about-the-event {
-  height: 780px;
+  padding-bottom: 50px;
 }
 
 .agenda {
-  height: 1820px;
+  padding-bottom: 50px;
 }
 
 .how-to-apply {
-  height: 1480px
+  padding-bottom: 50px;
 }
 
 .media {
-  height: 200px;
+  padding-bottom: 50px;
 }
 
 .no-margin {
@@ -79,7 +79,7 @@ p {
   }
 
   &--spacing {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
   &--spacingTop {

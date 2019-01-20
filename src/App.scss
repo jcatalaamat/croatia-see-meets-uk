@@ -209,7 +209,7 @@ p {
 }
 
 .header-menu {
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -716,7 +716,7 @@ p {
   //cursor: pointer;
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 20px;
   z-index: 9999;
   //background: #fff;
   //padding: 10px;
@@ -753,12 +753,13 @@ p {
   display: block;
   text-align: center;
   padding: 0px;
+  font-weight: bold;
 
   &-one {
     text-align: center;
     background-color: white;
-    border-bottom: 1px solid grey;
-    color: #715dff;
+    border-bottom: 1px solid #999999;
+    color: #999999;
     :hover {
       background-color: #00ffff;
       color: #000000;
@@ -785,8 +786,8 @@ p {
   &-four {
     text-align: center;
     background-color: white;
-    border-bottom: 1px solid grey;
-    color: #525659;
+    border-bottom: 1px solid #999999;
+    color: #999999;
     :hover {
       background-color: #00ffff;
       color: #000000;
@@ -795,7 +796,7 @@ p {
   &-five {
     text-align: center;
     background-color: white;
-    color: #525659;
+    color: #999999;
 
     :hover {
       background-color: #00ffff;
@@ -805,7 +806,7 @@ p {
 }
 .menu ul {
   position: relative;
-  top: 20px;
+  top: 40px;
   font-size: 24px;
   padding: 0px;
 }

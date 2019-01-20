@@ -759,26 +759,48 @@ p {
     background-color: white;
     border-bottom: 1px solid grey;
     color: #715dff;
+    :hover {
+      background-color: #00ffff;
+      color: #000000;
+    }
   }
   &-two {
     text-align: center;
     background-color: #00ffff;
     color: black;
+    :hover {
+      background-color: #00ffff;
+      color: #000000;
+    }
   }
   &-three {
     text-align: center;
     background-color: #715dff;
     color: white;
+    :hover {
+      background-color: #00ffff;
+      color: #000000;
+    }
   }
   &-four {
     text-align: center;
     background-color: white;
+    border-bottom: 1px solid grey;
     color: #525659;
+    :hover {
+      background-color: #00ffff;
+      color: #000000;
+    }
   }
   &-five {
     text-align: center;
     background-color: white;
     color: #525659;
+
+    :hover {
+      background-color: #00ffff;
+      color: #000000;
+    }
   }
 }
 .menu ul {
@@ -794,10 +816,9 @@ p {
   height: 100px;
   list-style: outside none none;
   padding: 0;
-  cursor: pointer;
 }
 .menu li:hover {
-  color: #ff0000;
+  //color: #ff0000;
 }
 
 

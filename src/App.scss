@@ -611,3 +611,194 @@ p {
     }
   }
 }
+
+///////////HEADER MENU CSS/////////
+.header-menu {
+  input + label {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    height: 20px;
+    width: 20px; 
+    z-index: 5;
+    span {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 50%;
+      margin-top: -1px;
+      left: 0;
+      display: block;
+      background: #00ffff;
+      transition: .5s;
+    }
+    span:first-child {
+      top: 3px; 
+    }
+    span:last-child {
+      top: 16px; 
+    }      
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  input:checked + label { 
+    span {
+      opacity: 0;
+      top: 50%;
+    }
+    span:first-child {
+      opacity: 1;
+      transform: rotate(405deg);
+    }
+    span:last-child {
+      opacity: 1;
+      transform: rotate(-405deg);
+    }
+  }
+  input ~ nav {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+    transition: .5s;
+    transition-delay: .5s;
+    overflow: hidden;
+    > ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding-top: 50px;
+      > li {
+        text-align: center;
+        opacity: 0;
+        transition: .5s;
+        transition-delay: 0s;
+        > a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: black;
+          font-weight: 700;
+          font-family: sans-serif;
+          display: block;
+          padding: 30px;
+        }
+      }
+    }
+  }
+  input:checked ~ nav { 
+    height: 100%;
+    transition-delay: 0s;
+    background-color: #715dff;
+    > ul {
+      > li {
+        opacity: 1;
+        transition-delay: .5s;
+      }
+    }
+  } 
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/////////// REACT CSS BURGER 
+.burger-menu,
+.burger-menu.open {
+  //display: inline-block;
+  //cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 9999;
+  //background: #fff;
+  //padding: 10px;
+  //border-radius: 25px;
+  //box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.burger-menu .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #00ffff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.burger-menu.open .bar2 {
+  opacity: 0;
+}
+
+.burger-menu.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.menu {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+
+  &-one {
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    color: #715dff;
+  }
+  &-two {
+    text-align: center;
+    background-color: #00ffff;
+    color: black;
+  }
+  &-three {
+    text-align: center;
+    background-color: #715dff;
+    color: white;
+  }
+  &-four {
+    text-align: center;
+    background-color: white;
+    color: #525659;
+  }
+  &-five {
+    text-align: center;
+    background-color: white;
+    color: #525659;
+  }
+}
+.menu ul {
+  position: relative;
+  top: 20px;
+  font-size: 24px;
+  padding: 0px;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  list-style: outside none none;
+  padding: 0;
+  cursor: pointer;
+}
+.menu li:hover {
+  color: #ff0000;
+}
+
+
+/////////// REACT CSS BURGER 

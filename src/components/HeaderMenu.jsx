@@ -2,6 +2,8 @@ import React from 'react';
 
 const HeaderMenu = () => (
   <div className="header-menu">
+    <div className="logo" />
+
     {/* <input className="hidden" id="burger" type="checkbox" />
 
     <label htmlFor="burger">

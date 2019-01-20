@@ -724,6 +724,20 @@ p {
   //box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../src/assets/png/Croatia_event_web_2-05.png);
+  background-size: 10%;
+  background-repeat: no-repeat;
+
+  background-position: 8% 2%;
+  height: 100%;
+  width: 100%;
+}
+
+
 .burger-menu .bar1,
 .bar2,
 .bar3 {

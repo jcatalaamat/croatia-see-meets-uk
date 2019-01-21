@@ -8,10 +8,12 @@ const HeaderMenu = props => (
 
       <div className="menu-options">
         <ul>
-          <li className="menu-flat-one" onClick={props.goToEvent}>The event</li>
-          <li className="menu-flat-two" onClick={props.goToWhy}>Why participate</li>
-          <li className="menu-flat-three" onClick={props.goToApply}>How to apply</li>
-          <li className="menu-flat-four" onClick={props.goToBccc}>About BCCC</li>
+          <li className="menu-flat-item" onClick={props.goToEvent}>The event</li>
+          <li className="menu-flat-item" onClick={props.goToWhy}>Why participate</li>
+          <li className="menu-flat-item" onClick={props.goToAgenda}>Agenda</li>
+          <li className="menu-flat-item" onClick={props.goToProgramme}>Encode Programme</li>
+          <li className="menu-flat-item" onClick={props.goToApply}>How to apply</li>
+          <li className="menu-flat-item" onClick={props.goToBccc}>About BCCC</li>
         </ul>
       </div>
     </div>

@@ -28,7 +28,7 @@ const Title = (props) => {
         closeOnDocumentClick
         trigger={open => <BurgerIcon open={open} />}
       >
-        {close => <Menu close={close} />}
+        {close => <Menu {...props} close={close} />}
       </Popup>
       <div className="titles">
         <h4>TECH FUTURES LONDON 2019</h4>

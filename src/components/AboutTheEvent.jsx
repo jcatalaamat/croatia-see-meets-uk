@@ -21,8 +21,12 @@ const AboutTheEvent = () => (
           </b>
         </p>
       </div>
-      <PurpleLine text="Over the 2 days we'll guide you through the stages" />
-      <PurpleLine spacing text="of innovation, coding and capital." />
+      <PurpleLine>
+      Over the 2 days we'll guide you through the stages
+        <br className="br" />
+        {' '}
+        of innovation, coding and capital.
+      </PurpleLine>
     </div>
     <div className="stage__container">
       <div className="stage">

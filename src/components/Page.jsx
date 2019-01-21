@@ -12,22 +12,6 @@ import Media from './Media';
 import Footer from './Footer';
 
 class Page extends Component {
-  constructor(props) {
-    super(props);
-    // this.state = {
-    //   goToEvent: false,
-    // };
-  }
-
-
-  // componentDidUpdate() {
-  //   console.log(this);
-  //   if (this.state.goToEvent) {
-  //     console.log('scrollToEvent');
-  //     window.scrollTo(0, this.eventRef.offsetTop);
-  //   }
-  // }
-
   goToEvent = () => {
     window.scrollTo(0, this.eventRef.offsetTop);
     // console.log('GoToEvent');

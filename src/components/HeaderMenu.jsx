@@ -1,24 +1,22 @@
 import React from 'react';
 
 const HeaderMenu = () => (
-  <div className="header-menu">
-    <div className="logo" />
+  <div>
 
-    {/* <input className="hidden" id="burger" type="checkbox" />
+    <div className="space" />
+    <div className="header-menu">
+      <div className="logo" />
 
-    <label htmlFor="burger">
-      <span />
-      <span />
-      <span />
-    </label>
+      <div className="menu-options">
+        <ul>
+          <li className="menu-flat-one">The event</li>
+          <li className="menu-flat-two">Why participate</li>
+          <li className="menu-flat-three">How to apply</li>
+          <li className="menu-flat-four">About BCCC</li>
+        </ul>
+      </div>
+    </div>
 
-    <nav>
-      <ul>
-        <li><a href="#">Link #1</a></li>
-        <li><a href="#">Link #2</a></li>
-        <li><a href="#">Link #3</a></li>
-      </ul>
-    </nav> */}
   </div>
 );
 

@@ -210,10 +210,11 @@ p {
 
 .header-menu {
   height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    background-color: transparent;
+    width: 100%;
   
   @media only screen and (min-width: 768px) {
     height: 100px;
@@ -287,6 +288,9 @@ p {
   }
   &--spacingTop {
     padding-top: 20px;
+    @media only screen and (min-width: 768px) {
+      padding-top: 60px;
+    }
   }
 }
 
@@ -302,6 +306,7 @@ p {
   color: white;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 20px;
   @media only screen and (min-width: 768px) {
     padding-left: 100px;
   }
@@ -756,4 +761,62 @@ p {
 }
 
 
-/////////// REACT CSS BURGER 
+.space {
+  @media only screen and (min-width: 768px) {
+    display: block;
+    //border: 1px solid red;
+    width: 150px;
+    height: 20px;
+  }
+}
+
+.menu-options {
+  visibility: hidden;
+  @media only screen and (min-width: 768px) {
+    visibility: visible;
+    color: #00ffff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+
+  ul {
+    margin-left: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    align-items: flex-end;
+  }
+  li {
+    list-style: outside none none;
+
+  }
+  }
+  
+}
+
+.menu-flat {
+  &-one {
+    line-height: 16px;
+    padding: 5px 0 5px 0;
+  }
+  &-two {
+    line-height: 16px;
+    padding: 5px 0 5px 0;
+  }
+  &-three {
+    background-color: #00ffff;
+    color: black;
+    box-shadow: 10px 0 0 #00ffff, -10px 0 0 #00ffff;
+    line-height: 16px;
+    padding: 5px 0 5px 0;
+  }
+  &-four {
+    line-height: 16px;
+    padding: 5px 0 5px 0;
+  }
+}

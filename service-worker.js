@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/croatia-see-meets-uk/precache-manifest.cfa587c55170651625c46a1255054335.js"
+  "/croatia-see-meets-uk/precache-manifest.c03c4fbbc1e781fc3d9b536bea6633e4.js"
 );
 
 workbox.clientsClaim();

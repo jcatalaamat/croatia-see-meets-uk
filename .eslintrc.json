@@ -8,6 +8,7 @@
             "object": true
           }, {
             "enforceForRenamedProperties": false
-          }]
+          }],
+          "react/prefer-stateless-function": 0
     }
   }

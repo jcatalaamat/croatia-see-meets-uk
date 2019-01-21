@@ -760,7 +760,6 @@ p {
   //color: #ff0000;
 }
 
-
 .space {
   @media only screen and (min-width: 768px) {
     display: block;
@@ -801,14 +800,17 @@ p {
 
 .menu-flat {
   &-one {
+    cursor: pointer;
     line-height: 16px;
     padding: 5px 0 5px 0;
   }
   &-two {
+    cursor: pointer;
     line-height: 16px;
     padding: 5px 0 5px 0;
   }
   &-three {
+    cursor: pointer;
     background-color: #00ffff;
     color: black;
     box-shadow: 10px 0 0 #00ffff, -10px 0 0 #00ffff;
@@ -816,7 +818,9 @@ p {
     padding: 5px 0 5px 0;
   }
   &-four {
+    cursor: pointer;
     line-height: 16px;
     padding: 5px 0 5px 0;
   }
 }
+

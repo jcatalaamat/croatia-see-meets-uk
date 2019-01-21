@@ -7,7 +7,7 @@ import BurgerIcon from './BurgerIcon';
 import Menu from './Menu';
 
 
-const Title = () => {
+const Title = (props) => {
   const contentStyle = {
     background: '#715dff',
     'overflow-y': 'hidden',
@@ -19,7 +19,7 @@ const Title = () => {
   };
   return (
     <div className="title-section">
-      <HeaderMenu />
+      <HeaderMenu {...props} />
       <Popup
         modal
         lockScroll

@@ -14,11 +14,6 @@ import Footer from './Footer';
 class Page extends Component {
   goToEvent = () => {
     window.scrollTo(0, this.eventRef.offsetTop);
-    // console.log('GoToEvent');
-    // this.setState({
-    //   goToEvent: true,
-    // });
-    // this.eventRef.scrollIntoView();
   }
 
   goToWhy = () => {

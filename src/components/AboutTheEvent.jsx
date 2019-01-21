@@ -10,13 +10,13 @@ const AboutTheEvent = () => (
       <div className="introduction">
         <p className="no-margin">
           <b>
-            The British Croatian Chamber of Commerce (BCCC)
-            is offering our latest all-in TECH FUTURES LONDON 2019.
+          The British Croatian Chamber of Commerce (BCCC)
+is offering an all-in TECH FUTURES LONDON 2019.
           </b>
         </p>
         <p>
           <b>
-            The Event agenda is designed to mimic, at a high level,
+            The Event agenda is designed to mirror, at a high level,
             the typical 3-stage lifecycle of a tech start-up.
           </b>
         </p>

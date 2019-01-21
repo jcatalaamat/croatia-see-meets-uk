@@ -11,13 +11,18 @@ class Menu extends Component {
     this.props.close();
   }
 
-  goToApply = () => {
-    this.props.goToApply();
+  goToAgenda = () => {
+    this.props.goToAgenda();
     this.props.close();
   }
 
   goToProgramme = () => {
     this.props.goToProgramme();
+    this.props.close();
+  }
+
+  goToApply = () => {
+    this.props.goToApply();
     this.props.close();
   }
 
@@ -34,8 +39,9 @@ class Menu extends Component {
         <ul>
           <li className="menu-one" onClick={this.goToEvent}>The Event</li>
           <li className="menu-two" onClick={this.goToWhy}>Why Participate</li>
-          <li className="menu-three" onClick={this.goToApply}>How to apply</li>
+          <li className="menu-two" onClick={this.goToAgenda}>Agenda</li>
           <li className="menu-four" onClick={this.goToProgramme}>Encode Programme</li>
+          <li className="menu-three" onClick={this.goToApply}>How to apply</li>
           <li className="menu-five" onClick={this.goToBccc}>About BCCC</li>
         </ul>
       </div>

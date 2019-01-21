@@ -20,12 +20,16 @@ class Page extends Component {
     window.scrollTo(0, this.whyRef.offsetTop);
   }
 
-  goToApply =() => {
-    window.scrollTo(0, this.applyRef.offsetTop);
+  goToAgenda =() => {
+    window.scrollTo(0, this.agendaRef.offsetTop);
   }
 
   goToProgramme =() => {
     window.scrollTo(0, this.programmeRef.offsetTop);
+  }
+
+  goToApply =() => {
+    window.scrollTo(0, this.applyRef.offsetTop);
   }
 
   goToBccc =() => {
@@ -36,8 +40,9 @@ class Page extends Component {
     const props = {
       goToEvent: this.goToEvent,
       goToWhy: this.goToWhy,
-      goToApply: this.goToApply,
       goToProgramme: this.goToProgramme,
+      goToAgenda: this.goToAgenda,
+      goToApply: this.goToApply,
       goToBccc: this.goToBccc,
     };
     return (
@@ -51,7 +56,9 @@ class Page extends Component {
         <div ref={ref => this.whyRef = ref}>
           <WhyParticipate />
         </div>
-        <Agenda />
+        <div ref={ref => this.agendaRef = ref}>
+          <Agenda />
+        </div>
         <div ref={ref => this.programmeRef = ref}>
           <EncodeProgramme />
         </div>

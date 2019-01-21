@@ -12,23 +12,38 @@ const HowToApply = () => (
         <AquaHeader text="And how do I apply?" />
         <div className="encode-text">
           <p>
-The Event will be split at two delegate levels (2 day and 1 day package) with the
-overall Event price adjusted accordingly. Our estimate currently is for a charge of
-GBP 1499 per delegate (2 day) and GBP 999 per delegate (1 day), with discounts
-for early and group bookings.
+        Event is priced at GBP 1500 per delegate which includes the following:
+          </p>
+          <Bullet text="3 nights at Nobu Hotel Shoreditch (breakfast included)" />
+          <Bullet text="Participation as a Delegate in both days of the event" />
+          <Bullet text="CPD accredited Certificate of Professional Education on Blockchain" />
+          <Bullet text="Lunch on Day 1 and Day 2" />
+          <Bullet text="Dinner and drinks on arrival" />
+          <Bullet text="Dinner, drinks and night out on Day 1 and Day 2" />
+          <Bullet text="Coffee, tea, nibbles and pastries through the days" />
+          <Bullet text="Coach transfer from and to LHR for those traveling with BCCC from Zagreb" />
+
+
+          <p>
+          The event is free of charge for Start-ups and Investors participating in the Day 2
+evening pitch.
 
           </p>
           <p>
-The event has a minimum of 30 and maximum 50 delegates capacity for the first
-day and 100 for the second day.
+          *if you're a Start-up or an Investor and you require accommodation, or anything
+else for that matter, and want to take advantage of our block booking at Nobu Hotel
+Shoreditch, please let us know
 
           </p>
           <p>
-Due to limited capacity and the all-in package arrangement applications for the
-event are done in a
-            {' '}
-            <b>two stage process</b>
-.
+The event has a minimum of 40 (max 50) Delegates capacity for the first day and
+100 for the second day
+
+          </p>
+          <p>
+          Due to limited capacity and an all-in package arrangement, applications for the
+event are done in a two stage process.
+
           </p>
         </div>
       </div>
@@ -109,10 +124,6 @@ Stephen: +44 (0) 7973 666178 –
           <p>
 Once the potential capacity is reached you will receive an email and/or call back
 from the BCCC representative.
-          </p>
-          <p>
-You will then be emailed with the exact participation fees for you or your group and
-applicable early-bird discounts.
           </p>
           <p>
 Only then will you be allowed to progress with the official registration process via

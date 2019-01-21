@@ -40,15 +40,8 @@ const Title = (props) => {
         <div className="p-max">
           <p>
             <span className="p-contrast">
-            A unique
-              {' '}
-              <b>
-            business and professional education,
-            pitching and networking event
-                {' '}
-              </b>
-            in the City's tech-fuelled
-            ‘Silicon Roundabout’ area of Shoreditch.
+            A unique package event of Professional CPD Education, Pitching and
+            Networking in the City's tech-fuelled ‘Silicon Roundabout’ area of Shoreditch.
             </span>
           </p>
           <p>
@@ -63,11 +56,13 @@ const Title = (props) => {
           </p>
           <p>
             <span className="p-contrast">
+              <b>
             The event is offered as an all-inclusive package where
             the price includes participation in all the business, social
             and networking events, bed-and-breakfast
             accommodation at the Nobu Shoreditch hotel as well as
             food and drinks throughout the days.
+              </b>
             </span>
           </p>
         </div>

@@ -691,7 +691,7 @@ p {
   display: block;
   text-align: center;
   padding: 0px;
-  font-weight: bold;
+  //font-weight: bold;
 
   &-one {
     text-align: center;
@@ -705,21 +705,35 @@ p {
   }
   &-two {
     text-align: center;
-    background-color: #00ffff;
-    color: black;
+    background-color: white;
+    border-bottom: 1px solid #999999;
+    color: #999999;
     :hover {
       background-color: #00ffff;
       color: #000000;
     }
+    // background-color: #00ffff;
+    // color: black;
+    // :hover {
+    //   background-color: #00ffff;
+    //   color: #000000;
+    // }
   }
   &-three {
     text-align: center;
-    background-color: #715dff;
-    color: white;
+    background-color: white;
+    border-bottom: 1px solid #999999;
+    color: #999999;
     :hover {
       background-color: #00ffff;
       color: #000000;
     }
+    // background-color: #715dff;
+    // color: white;
+    // :hover {
+    //   background-color: #00ffff;
+    //   color: #000000;
+    // }
   }
   &-four {
     text-align: center;
@@ -745,14 +759,14 @@ p {
 .menu ul {
   position: relative;
   top: 40px;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0px;
 }
 .menu li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
   list-style: outside none none;
   padding: 0;
 }

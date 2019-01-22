@@ -67,11 +67,14 @@ p {
   background-image: url(./assets/img/citiy-bw_op.jpg);
   background-size: cover;
   background-position-x: center;
-
   padding-bottom: 50px;
-  // @media only screen and (min-width: 768px) {
-  //   padding-bottom: 200px;
-  // }
+
+  &-bccc {
+    background-image: url(./assets/img/Hero-02_op.jpg);
+    background-size: cover;
+    background-position-x: center;
+    padding-bottom: 50px;
+  }
 }
 
 
@@ -85,6 +88,38 @@ p {
 
    width: 50px;
    height: 70px;
+   &-second {
+    height: 20px;
+    @media only screen and (min-width: 768px) {
+      height: 100px;
+    }
+   }
+   &-third {
+    height: 80px;
+   }
+    @media only screen and (max-width: 768px) {
+      left: 45%;
+    }
+}
+
+.bottom-arrow-bccc {
+  
+  
+   background-size: 50px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   position: relative;
+   left: 50%;
+
+   width: 50px;
+   height: 70px;
+
+   &-red {
+    background-image: url(./assets/png/BCCC_arrow-03.png);
+   }
+   &-white {
+    background-image: url(./assets/png/BCCC_arrow-04.png);
+   }
    &-second {
     height: 20px;
     @media only screen and (min-width: 768px) {
@@ -134,6 +169,16 @@ p {
     background-size: 23%;
     background-repeat: no-repeat;
   }
+}
+
+.our-mission {
+  padding-bottom: 50px;
+  background-color: white;
+  
+  .content {
+    padding-right: 21px;
+  }
+
 }
 
 .agenda {
@@ -255,11 +300,9 @@ p {
 .aqua-header__container {
   padding-top: 8px;
   padding-bottom: 8px;
-
   @media only screen and (min-width: 768px) {
     max-width: 815px;
   }
-
   &--medium {
     @media only screen and (min-width: 768px) {
       h2 {
@@ -267,7 +310,6 @@ p {
       }
     }
   }
-
   &--small{
     width: 60%;
     padding-top: 16px;
@@ -276,11 +318,9 @@ p {
       width: 100%;
     }
   }
-
   &--spacing {
     padding-top: 40px;
     padding-bottom: 20px;
-
     @media only screen and (min-width: 768px) {
       padding-top: 60px;
       padding-bottom: 20px;
@@ -293,11 +333,54 @@ p {
     }
   }
 }
-
 .aqua-header__text{
   background-color: #00ffff;
   color: black;
   box-shadow: 6px 0 0 #00ffff, -6px 0 0 #00ffff;
+  line-height: 16px;
+  padding: 1px 0 1px 0;
+}
+
+.red-header__container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  @media only screen and (min-width: 768px) {
+    max-width: 815px;
+  }
+  &--medium {
+    @media only screen and (min-width: 768px) {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  &--small{
+    width: 60%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    @media only screen and (min-width: 768px) {
+      width: 100%;
+    }
+  }
+  &--spacing {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    @media only screen and (min-width: 768px) {
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+  }
+  &--spacingTop {
+    padding-top: 20px;
+    @media only screen and (min-width: 768px) {
+      padding-top: 60px;
+    }
+  }
+}
+.red-header__text{
+  background-color: #e93732;
+  color: white;
+  box-shadow: 6px 0 0 #e93732, -6px 0 0 #e93732;
   line-height: 16px;
   padding: 1px 0 1px 0;
 }
@@ -343,6 +426,15 @@ p {
   padding: 1px 0 1px 0;
   background-color: white;
   color: black;
+
+  &-bccc {
+    font-size: 27px;
+    box-shadow: 6px 0 0 white, -6px 0 0 white;
+  line-height: 40px;
+  padding: 1px 0 1px 0;
+  background-color: white;
+  color: black;
+  }
 }
 
 .purple-header__container {
@@ -659,6 +751,26 @@ p {
     background-size: 95%;
     //background-position: 15% 20%;
   }
+
+  &-bccc {
+    position: absolute;
+  left: 25px;
+  top: 10px;
+  background-image: url(../src/assets/png/BCCC_logo-02.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  //background-position: 8% 2%;
+  height: 50px;
+  width: 50px;
+
+  @media only screen and (min-width: 768px) {
+    width: 350px;
+    left: 100px;
+    top: 20px;
+    background-size: 95%;
+    //background-position: 15% 20%;
+  }
+  }
 }
 
 
@@ -777,7 +889,7 @@ p {
 .space {
   @media only screen and (min-width: 768px) {
     display: block;
-    //border: 1px solid red;
+    //border: 1px solid #e93732;
     width: 150px;
     height: 20px;
   }
@@ -795,31 +907,26 @@ p {
     justify-content: flex-end;
     height: 100%;
     align-items: center;
-
-  ul {
-    margin-left: 150px;
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 80px;
-    align-items: flex-end;
+    ul {
+      margin-left: 150px;
+      width: 800px;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 80px;
+      align-items: flex-end;
+    }
+    li {
+      list-style: outside none none;
+    }
   }
-  li {
-    list-style: outside none none;
-
-  }
-  }
-  
 }
 
 .menu-flat {
-
   &-item {
     cursor: pointer;
     line-height: 16px;
     padding: 5px 0 5px 0;
     text-align: center;
-    
   }
   &-item:hover{
       background-color: #00ffff;
@@ -827,31 +934,50 @@ p {
       box-shadow: 10px 0 0 #00ffff, -10px 0 0 #00ffff;
       line-height: 16px;
   }
+}
 
-  &-one {
-    cursor: pointer;
-    line-height: 16px;
-    padding: 5px 0 5px 0;
-  }
-  &-two {
-    cursor: pointer;
-    line-height: 16px;
-    padding: 5px 0 5px 0;
-  }
-  &-three {
-    cursor: pointer;
-    background-color: #00ffff;
-    color: black;
-    box-shadow: 10px 0 0 #00ffff, -10px 0 0 #00ffff;
-    line-height: 16px;
-    padding: 5px 0 5px 0;
-  }
-  &-four {
-    cursor: pointer;
-    line-height: 16px;
-    padding: 5px 0 5px 0;
+.menu-options-bccc {
+  visibility: hidden;
+  @media only screen and (min-width: 768px) {
+    visibility: visible;
+    color: #e93732;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    ul {
+      margin-left: 400px;
+      width: 600px;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 60px;
+      align-items: flex-end;
+    }
+    li {
+      list-style: outside none none;
+    }
   }
 }
+
+.menu-flat-bccc {
+  &-item {
+    cursor: pointer;
+    line-height: 16px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+  }
+  &-item:hover{
+      background-color: #e93732;
+      color: white;
+      box-shadow: 10px 0 0 #e93732, -10px 0 0 #e93732;
+      line-height: 16px;
+  }
+}
+
+
 
 .br {
   display: none;
@@ -865,4 +991,21 @@ p {
 }
 .pointer {
   cursor: pointer;
+}
+
+.missions {
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px
+  }
+
+  &-one{ 
+    width: 500px;
+  }
+
+  &-two {
+    width: 450px;
+  }
 }

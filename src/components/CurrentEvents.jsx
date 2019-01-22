@@ -30,7 +30,7 @@ European and global markets.
           </span>
         </p>
         <p>
-          <span className="p-contrast">
+          <span style={{ fontWeight: 'bold' }} className="p-contrast">
           To learn more about the event
             {' '}
 

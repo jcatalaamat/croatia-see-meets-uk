@@ -1187,12 +1187,17 @@ p {
   }
 
   &-one{ 
-    width: 500px;
+    @media only screen and (min-width: 768px) {
+      width: 500px;
+    }
     padding-right: 20px;
+    
   }
 
   &-two {
-    width: 450px;
+    @media only screen and (min-width: 768px) {
+      width: 450px;
+    }
   }
 }
 
@@ -1209,20 +1214,28 @@ p {
   }
 
   &-one{ 
-    width: 500px;
     padding-right: 20px;
+    @media only screen and (min-width: 768px) {
+      width: 500px;
+    }
   }
 
   &-one-small{ 
-    width: 400px;
     padding-right: 20px;
+    @media only screen and (min-width: 768px) {
+      width: 400px;
+    }
   }
 
   &-two {
-    width: 450px;
+    @media only screen and (min-width: 768px) {
+      width: 450px;
+    }
   }
   &-two-big{ 
-    width: 500px;
+    @media only screen and (min-width: 768px) {
+      width: 500px;
+    }
   }
 }
 .red-bg-underline {
@@ -1230,7 +1243,10 @@ p {
   color: white;
   box-shadow: 6px 0 0 #fe0000, -6px 0 0 #fe0000;
   text-decoration-color: white;
-  font-size: 20px;
+  @media only screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+  font-size: 17px;
   font-weight: 500;
   line-height: 16px;
   padding: 2px 0 2px 0;

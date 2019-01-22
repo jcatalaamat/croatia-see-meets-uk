@@ -19,11 +19,11 @@ class BcccPage extends Component {
   }
 
   goToDirectors =() => {
-    window.scrollTo(0, this.currentRef.offsetTop);
+    window.scrollTo(0, this.directorsRef.offsetTop);
   }
 
   goToCurrent =() => {
-    window.scrollTo(0, this.directorsRef.offsetTop);
+    window.scrollTo(0, this.currentRef.offsetTop);
   }
 
   render() {

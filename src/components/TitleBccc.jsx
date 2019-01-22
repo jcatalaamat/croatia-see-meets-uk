@@ -9,7 +9,7 @@ import BurgerIconRed from './BurgerIconRed';
 
 const TitleBccc = (props) => {
   const contentStyle = {
-    background: '#715dff',
+    background: '#cccccc',
     'overflow-y': 'hidden',
     'overflow-x': 'hidden',
     padding: '0',

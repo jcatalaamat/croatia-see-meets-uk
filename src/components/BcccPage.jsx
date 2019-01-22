@@ -10,6 +10,7 @@ import AboutBCCC from './AboutBCCC';
 import Media from './Media';
 import Footer from './Footer';
 import OurMission from './OurMission';
+import OurHistory from './OurHistory';
 
 class BcccPage extends Component {
   goToMission = () => {
@@ -17,7 +18,7 @@ class BcccPage extends Component {
   }
 
   goToHistory = () => {
-    window.scrollTo(0, this.whyRef.offsetTop);
+    window.scrollTo(0, this.historyRef.offsetTop);
   }
 
   goToDirectors =() => {
@@ -43,8 +44,8 @@ class BcccPage extends Component {
         <div ref={ref => this.missionRef = ref}>
           <OurMission />
         </div>
-        <div ref={ref => this.whyRef = ref}>
-          <WhyParticipate />
+        <div ref={ref => this.historyRef = ref}>
+          <OurHistory />
         </div>
         <div ref={ref => this.agendaRef = ref}>
           <Agenda />

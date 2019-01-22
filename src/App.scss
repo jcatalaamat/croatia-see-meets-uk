@@ -178,7 +178,15 @@ p {
   .content {
     padding-right: 21px;
   }
+}
 
+.our-history {
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+  
+  .content {
+    padding-right: 21px;
+  }
 }
 
 .agenda {
@@ -435,6 +443,15 @@ p {
   background-color: white;
   color: black;
   }
+
+  &-red {
+    font-size: 17px;
+    box-shadow: 6px 0 0 white, -6px 0 0 white;
+  line-height: 16px;
+  padding: 1px 0 1px 0;
+  background-color: white;
+  color: #e93732;
+  }
 }
 
 .purple-header__container {
@@ -563,6 +580,68 @@ p {
 
   @media only screen and (min-width: 768px) {
     width: 300px;
+  }
+
+  &__header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 12px;
+    @media only screen and (min-width: 768px) {
+      font-size: 17px;
+    }
+
+    &-container {
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 16px;
+
+      @media only screen and (min-width: 768px) {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+      }
+    }
+  }
+}
+
+.our-history__container {
+  &--text {
+    max-width: 700px;
+  }
+
+  &--square {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: 768px) {
+      //padding-left: 20px;
+      //padding-right: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.box-red {
+  width: 350px;
+  color: white;
+  background-color: #e93732;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    width: 450px;
   }
 
   &__header {
@@ -998,11 +1077,30 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 100px
+    padding-right: 80px
   }
 
   &-one{ 
     width: 500px;
+    padding-right: 20px;
+  }
+
+  &-two {
+    width: 450px;
+  }
+}
+
+.history {
+  @media only screen and (min-width: 960px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px
+  }
+
+  &-one{ 
+    width: 500px;
+    padding-right: 20px;
   }
 
   &-two {

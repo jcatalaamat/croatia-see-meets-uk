@@ -1,5 +1,4 @@
 import React from 'react';
-import SmallSection from './SmallSection';
 import RedHeader from './RedHeader';
 
 const OurMission = () => (

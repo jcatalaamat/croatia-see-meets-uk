@@ -116,7 +116,7 @@ Stephen: +44 (0) 7973 666178 –
 
       </div>
     </div>
-    <div className="separator" />
+    <div className="separator separator-nobottom" />
     <div className="electron">
       <div className="content">
         <AquaHeader medium text="Second Step" />

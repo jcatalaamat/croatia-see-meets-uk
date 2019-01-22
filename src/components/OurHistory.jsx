@@ -68,7 +68,7 @@ For more information or to join BCCC, contact us here:
                     <a style={{ textDecorationColor: '#e93732' }} href="mailto:info@britishcroatiancc.co.uk"><span className="p-contrast-red">info@britishcroatiancc.co.uk</span></a>
                     <br />
                     <br />
-                    <a style={{ textDecorationColor: '#e93732' }} href="mailto:embers@britishcroatiancc.co.uk"><span className="p-contrast-red">embers@britishcroatiancc.co.uk</span></a>
+                    <a style={{ textDecorationColor: '#e93732' }} href="mailto:members@britishcroatiancc.co.uk"><span className="p-contrast-red">members@britishcroatiancc.co.uk</span></a>
                   </span>
                 </div>
               </div>

@@ -21,7 +21,7 @@ is offering an all-in TECH FUTURES LONDON 2019.
           </b>
         </p>
       </div>
-      <PurpleLine>
+      <PurpleLine spacing>
       Over the 2 days we'll guide you through the stages
         <br className="br" />
         {' '}

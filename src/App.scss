@@ -148,18 +148,28 @@ p {
   background-size: cover;
   background-position-x: center;
   padding-bottom: 50px;
+
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 100px;
+  }
 }
 
 .encode-program {
   background-image: url(./assets/img/coworking_space_bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 100px;
+  }
 }
 
 .about-bccc {
   background-image: url(./assets/img/gerkhin-bw_op.jpg);
   background-size: cover;
   padding-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 100px;
+  }
 }
 
 .about-the-event {
@@ -171,7 +181,7 @@ p {
   }
 
   @media only screen and (min-width: 960px) {
-    //padding-bottom: 150px;
+    padding-bottom: 150px;
     background-image: url(./assets/png/Croatia_event_web_2-10.png);
     background-position: 5% 110%;
     background-size: 23%;
@@ -251,9 +261,10 @@ p {
 
 .electron {
   @media only screen and (min-width: 960px) {
+    padding-top:40px;
     background-image: url(./assets/png/Croatia_event_web_2-09.png);
     background-position: 108% 85%;
-    background-size: 20%;
+    background-size: 19%;
     background-repeat: no-repeat;
   }
 }
@@ -504,6 +515,10 @@ p {
       margin-top: 60px;
       margin-bottom: 40px;
   }
+
+   &nobottom {
+     margin-bottom: 0;
+   }
  }
 
  .purple {

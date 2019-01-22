@@ -1009,49 +1009,17 @@ p {
   display: block;
   text-align: center;
   padding: 0px;
-  //font-weight: bold;
-
-  &-one {
+  &-i {
     text-align: center;
     background-color: white;
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #e6e6e6;
     color: #999999;
     :hover {
       background-color: #00ffff;
       color: #000000;
     }
   }
-  &-two {
-    text-align: center;
-    background-color: white;
-    border-bottom: 1px solid #999999;
-    color: #999999;
-    :hover {
-      background-color: #00ffff;
-      color: #000000;
-    }
-  }
-  &-three {
-    text-align: center;
-    background-color: white;
-    border-bottom: 1px solid #999999;
-    color: #999999;
-    :hover {
-      background-color: #00ffff;
-      color: #000000;
-    }
-  }
-  &-four {
-    text-align: center;
-    background-color: white;
-    border-bottom: 1px solid #999999;
-    color: #999999;
-    :hover {
-      background-color: #00ffff;
-      color: #000000;
-    }
-  }
-  &-five {
+  &-f {
     text-align: center;
     background-color: white;
     color: #999999;
@@ -1075,9 +1043,6 @@ p {
   height: 80px;
   list-style: outside none none;
   padding: 0;
-}
-.menu li:hover {
-  //color: #ff0000;
 }
 
 .space {
@@ -1177,6 +1142,12 @@ p {
   display: none;
   @media only screen and (min-width: 768px) {
     display: static;
+  }
+  &-i {
+    display: static;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
   }
 }
 

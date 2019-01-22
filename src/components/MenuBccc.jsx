@@ -26,10 +26,10 @@ class MenuBccc extends Component {
       <div className="menu">
         <div className="logo-bccc" />
         <ul>
-          <li className="menu-one-bccc" onClick={this.goToMission}>Our Mission</li>
-          <li className="menu-two-bccc" onClick={this.goToHistory}>Our History</li>
-          <li className="menu-two-bccc" onClick={this.goToCurrent}>Current Events</li>
-          <li className="menu-four-bccc" onClick={this.goToDirectors}>Board of Directors</li>
+          <li className="menu-i" onClick={this.goToMission}>Our Mission</li>
+          <li className="menu-i" onClick={this.goToHistory}>Our History</li>
+          <li className="menu-i" onClick={this.goToCurrent}>Current Events</li>
+          <li className="menu-f" onClick={this.goToDirectors}>Board of Directors</li>
         </ul>
       </div>
     );

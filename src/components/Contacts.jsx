@@ -16,7 +16,10 @@ const Contacts = () => (
           <span className="p-contrast">
 British Croatian Chamber of Commerce,
             <br />
-c/o Wikborg Rein LLP, 30 Cannon Street, London EC4M 6XH
+c/o Wikborg Rein LLP, 30 Cannon Street,
+            <br className="br-i" />
+            {' '}
+London EC4M 6XH
             <br />
 Company number: 03568235
 

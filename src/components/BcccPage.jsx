@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 
-import AboutTheEvent from './AboutTheEvent';
 import TitleBccc from './TitleBccc';
-import WhyParticipate from './WhyParticipate';
-import Agenda from './Agenda';
-import EncodeProgramme from './EncodeProgramme';
-import HowToApply from './HowToApply';
-import AboutBCCC from './AboutBCCC';
-import Media from './Media';
-import Footer from './Footer';
 import OurMission from './OurMission';
 import OurHistory from './OurHistory';
 import CurrentEvents from './CurrentEvents';
 import BoardOfDirectors from './BoardOfDirectors';
+import Footer from './Footer';
+import Contacts from './Contacts';
+import UsefulLinks from './UsefulLinks';
 
 class BcccPage extends Component {
   goToMission = () => {
@@ -55,13 +50,8 @@ class BcccPage extends Component {
         <div ref={ref => this.directorsRef = ref}>
           <BoardOfDirectors />
         </div>
-        {/* <div ref={ref => this.applyRef = ref}>
-          <HowToApply />
-        </div>
-        <div ref={ref => this.aboutRef = ref}>
-          <AboutBCCC />
-        </div>
-        <Media /> */}
+        <Contacts />
+        <UsefulLinks />
         <Footer />
       </div>
     );

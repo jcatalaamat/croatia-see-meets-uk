@@ -62,7 +62,7 @@ established companies who are actively interested in
 doing business between Croatia and the UK.
                     <br />
                     <br />
-For more information or to join BCCC, contact us here:
+For more information or to join BCCC, contact us here;
                     <br />
                     <br />
                     <a style={{ textDecorationColor: '#e93732' }} href="mailto:info@britishcroatiancc.co.uk"><span className="p-contrast-red">info@britishcroatiancc.co.uk</span></a>

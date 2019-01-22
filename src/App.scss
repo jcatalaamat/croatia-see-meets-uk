@@ -172,6 +172,15 @@ p {
   }
 }
 
+.contacts {
+  background-image: url(./assets/img/dubrovnik_bw_op.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 220px;
+  }
+}
+
 .about-the-event {
   padding-bottom: 50px;
   background-color: white;
@@ -283,6 +292,10 @@ p {
     background-size: 27%;
     background-repeat: no-repeat;
   }
+}
+
+.useful-links {
+  padding-bottom: 50px;
 }
 
 .no-margin {
@@ -1191,12 +1204,44 @@ p {
     padding-right: 80px
   }
 
+  &-links {
+    width: 960;
+  }
+
   &-one{ 
     width: 500px;
+    padding-right: 20px;
+  }
+
+  &-one-small{ 
+    width: 400px;
     padding-right: 20px;
   }
 
   &-two {
     width: 450px;
   }
+  &-two-big{ 
+    width: 500px;
+  }
+}
+.red-bg-underline {
+  background-color: #fe0000;
+  color: white;
+  box-shadow: 6px 0 0 #fe0000, -6px 0 0 #fe0000;
+  text-decoration-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 0 2px 0;
+}
+
+.red-bg {
+  background-color: #fe0000;
+  color: white;
+  box-shadow: 6px 0 0 #fe0000, -6px 0 0 #fe0000;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: bold;
+  padding: 2px 0 2px 0;
 }

@@ -11,6 +11,8 @@ import Media from './Media';
 import Footer from './Footer';
 import OurMission from './OurMission';
 import OurHistory from './OurHistory';
+import CurrentEvents from './CurrentEvents';
+import BoardOfDirectors from './BoardOfDirectors';
 
 class BcccPage extends Component {
   goToMission = () => {
@@ -22,11 +24,11 @@ class BcccPage extends Component {
   }
 
   goToDirectors =() => {
-    window.scrollTo(0, this.agendaRef.offsetTop);
+    window.scrollTo(0, this.currentRef.offsetTop);
   }
 
   goToCurrent =() => {
-    window.scrollTo(0, this.programmeRef.offsetTop);
+    window.scrollTo(0, this.directorsRef.offsetTop);
   }
 
   render() {
@@ -47,11 +49,11 @@ class BcccPage extends Component {
         <div ref={ref => this.historyRef = ref}>
           <OurHistory />
         </div>
-        <div ref={ref => this.agendaRef = ref}>
-          <Agenda />
+        <div ref={ref => this.currentRef = ref}>
+          <CurrentEvents />
         </div>
-        <div ref={ref => this.programmeRef = ref}>
-          <EncodeProgramme />
+        <div ref={ref => this.directorsRef = ref}>
+          <BoardOfDirectors />
         </div>
         <div ref={ref => this.applyRef = ref}>
           <HowToApply />

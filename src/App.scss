@@ -77,6 +77,14 @@ p {
   }
 }
 
+.current-events {
+  background-image: url(./assets/img/coworking_bw_op.jpg);
+  background-size: cover;
+  background-position-x: center;
+  padding-bottom: 50px;
+}
+
+
 
 .bottom-arrow {
    background-image: url(./assets/png/Croatia_event_web_2-04.png);
@@ -183,6 +191,15 @@ p {
 .our-history {
   padding-bottom: 50px;
   background-color: #f2f2f2;
+  
+  .content {
+    padding-right: 21px;
+  }
+}
+
+.board-directors {
+  padding-bottom: 50px;
+  background-color: white;
   
   .content {
     padding-right: 21px;
@@ -401,6 +418,7 @@ p {
   @media only screen and (min-width: 768px) {
     padding-left: 100px;
   }
+  
 }
 .content {
   padding-left: 25px;

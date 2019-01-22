@@ -4,6 +4,7 @@ import Popup from 'reactjs-popup';
 import HeaderMenuBccc from './HeaderMenuBccc';
 import BurgerIcon from './BurgerIcon';
 import MenuBccc from './MenuBccc';
+import BurgerIconRed from './BurgerIconRed';
 
 
 const TitleBccc = (props) => {
@@ -25,7 +26,7 @@ const TitleBccc = (props) => {
         overlayStyle={{ background: '#715dff' }}
         contentStyle={contentStyle}
         closeOnDocumentClick
-        trigger={open => <BurgerIcon open={open} />}
+        trigger={open => <BurgerIconRed open={open} />}
       >
         {close => <MenuBccc {...props} close={close} />}
       </Popup>

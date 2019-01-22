@@ -5,7 +5,6 @@ import HeaderMenu from './HeaderMenu';
 import AquaHeader from './AquaHeader';
 import BurgerIcon from './BurgerIcon';
 import Menu from './Menu';
-import BurgerIconRed from './BurgerIconRed';
 
 
 const Title = (props) => {
@@ -27,7 +26,7 @@ const Title = (props) => {
         overlayStyle={{ background: '#715dff' }}
         contentStyle={contentStyle}
         closeOnDocumentClick
-        trigger={open => <BurgerIconRed open={open} />}
+        trigger={open => <BurgerIcon open={open} />}
       >
         {close => <Menu {...props} close={close} />}
       </Popup>

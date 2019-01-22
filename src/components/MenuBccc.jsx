@@ -24,7 +24,7 @@ class MenuBccc extends Component {
   render() {
     return (
       <div className="menu">
-        <div className="logo" />
+        <div className="logo-bccc" />
         <ul>
           <li className="menu-one-bccc" onClick={this.goToMission}>Our Mission</li>
           <li className="menu-two-bccc" onClick={this.goToHistory}>Our History</li>

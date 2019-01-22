@@ -403,9 +403,9 @@ p {
   }
 }
 .red-header__text{
-  background-color: #e93732;
+  background-color: #fe0000;
   color: white;
-  box-shadow: 6px 0 0 #e93732, -6px 0 0 #e93732;
+  box-shadow: 6px 0 0 #fe0000, -6px 0 0 #fe0000;
   line-height: 16px;
   padding: 1px 0 1px 0;
 }
@@ -468,7 +468,7 @@ p {
   line-height: 16px;
   padding: 1px 0 1px 0;
   background-color: white;
-  color: #e93732;
+  color: #fe0000;
   }
 }
 
@@ -652,7 +652,7 @@ p {
 .box-red {
   width: 350px;
   color: white;
-  background-color: #e93732;
+  background-color: #fe0000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -986,7 +986,7 @@ p {
 .space {
   @media only screen and (min-width: 768px) {
     display: block;
-    //border: 1px solid #e93732;
+    //border: 1px solid #fe0000;
     width: 150px;
     height: 20px;
   }
@@ -1037,7 +1037,7 @@ p {
   visibility: hidden;
   @media only screen and (min-width: 768px) {
     visibility: visible;
-    color: #e93732;
+    color: #fe0000;
     font-size: 20px;
     font-weight: 500;
     display: flex;
@@ -1067,9 +1067,9 @@ p {
     text-align: center;
   }
   &-item:hover{
-      background-color: #e93732;
+      background-color: #fe0000;
       color: white;
-      box-shadow: 10px 0 0 #e93732, -10px 0 0 #e93732;
+      box-shadow: 10px 0 0 #fe0000, -10px 0 0 #fe0000;
       line-height: 16px;
   }
 }

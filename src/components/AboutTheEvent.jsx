@@ -87,7 +87,6 @@ capital first-hand.
 
       </div>
     </div>
-    <div className="bottom-arrow bottom-arrow-second" />
   </div>
 );
 

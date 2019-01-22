@@ -68,7 +68,6 @@ const WhyParticipate = () => (
         </div>
       </div>
     </div>
-    <div className="bottom-arrow bottom-arrow-third" />
   </div>
 );
 

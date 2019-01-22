@@ -11,7 +11,6 @@ const App = () => (
   <HashRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Route exact path="/" component={BcccPage} />
-      {/* <Route exact path="/" render={() => <BcccPage key={Math.random()} />} /> */}
       <Route path="/tech_futures_london_event_2019" component={Page} />
     </div>
   </HashRouter>

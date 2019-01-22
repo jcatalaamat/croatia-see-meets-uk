@@ -2,7 +2,6 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 
 import HeaderMenuBccc from './HeaderMenuBccc';
-import AquaHeader from './AquaHeader';
 import BurgerIcon from './BurgerIcon';
 import MenuBccc from './MenuBccc';
 

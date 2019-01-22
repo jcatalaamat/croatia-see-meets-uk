@@ -10,8 +10,8 @@ import './App.scss';
 const App = () => (
   <BrowserRouter>
     <div className="App">
-      <Route exact path="/" component={BcccPage} />
-      <Route path="/tech_futures_london_event_2019" component={Page} />
+      <Route exact path={`${process.env.PUBLIC_URL}/`} component={BcccPage} />
+      <Route path={`${process.env.PUBLIC_URL}/tech_futures_london_event_2019`} component={Page} />
     </div>
   </BrowserRouter>
 );

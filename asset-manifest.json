@@ -1,14 +1,14 @@
 {
-  "main.css": "/croatia-see-meets-uk/static/css/main.5636391f.chunk.css",
-  "main.js": "/croatia-see-meets-uk/static/js/main.87f2e949.chunk.js",
-  "main.js.map": "/croatia-see-meets-uk/static/js/main.87f2e949.chunk.js.map",
-  "static/js/1.c141c493.chunk.js": "/croatia-see-meets-uk/static/js/1.c141c493.chunk.js",
-  "static/js/1.c141c493.chunk.js.map": "/croatia-see-meets-uk/static/js/1.c141c493.chunk.js.map",
-  "runtime~main.js": "/croatia-see-meets-uk/static/js/runtime~main.683d1821.js",
-  "runtime~main.js.map": "/croatia-see-meets-uk/static/js/runtime~main.683d1821.js.map",
-  "static/media/App.scss": "/croatia-see-meets-uk/static/media/coworking_space_bw_op.1b312cf1.jpg",
-  "static/css/main.5636391f.chunk.css.map": "/croatia-see-meets-uk/static/css/main.5636391f.chunk.css.map",
-  "index.html": "/croatia-see-meets-uk/index.html",
-  "precache-manifest.9cb2efa63fb2f64398d8e6056db326ab.js": "/croatia-see-meets-uk/precache-manifest.9cb2efa63fb2f64398d8e6056db326ab.js",
-  "service-worker.js": "/croatia-see-meets-uk/service-worker.js"
+  "main.css": "/static/css/main.5636391f.chunk.css",
+  "main.js": "/static/js/main.87f2e949.chunk.js",
+  "main.js.map": "/static/js/main.87f2e949.chunk.js.map",
+  "static/js/1.c141c493.chunk.js": "/static/js/1.c141c493.chunk.js",
+  "static/js/1.c141c493.chunk.js.map": "/static/js/1.c141c493.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.683d1821.js",
+  "runtime~main.js.map": "/static/js/runtime~main.683d1821.js.map",
+  "static/media/App.scss": "/static/media/coworking_space_bw_op.1b312cf1.jpg",
+  "static/css/main.5636391f.chunk.css.map": "/static/css/main.5636391f.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.9cb2efa63fb2f64398d8e6056db326ab.js": "/precache-manifest.9cb2efa63fb2f64398d8e6056db326ab.js",
+  "service-worker.js": "/service-worker.js"
 }

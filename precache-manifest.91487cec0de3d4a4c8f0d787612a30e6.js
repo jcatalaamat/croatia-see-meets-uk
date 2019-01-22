@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-10.c5b9f5d1.png"
   },
   {
-    "revision": "4eb0f9afb749f518671f",
-    "url": "/static/css/main.8462c5d6.chunk.css"
+    "revision": "a10e74e919f882a01574",
+    "url": "/static/css/main.d22d2674.chunk.css"
   },
   {
-    "revision": "78e95f53c7e7bceca666",
-    "url": "/static/js/1.78e95f53.chunk.js"
+    "revision": "7e63b68819ad446a1853",
+    "url": "/static/js/1.7e63b688.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "/static/media/citiy-bw_op.540fa401.jpg"
   },
   {
+    "revision": "1b312cf1194011bb065873bfba298c1a",
+    "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
+  },
+  {
     "revision": "6fe98b028af44dc48f6a99874852ab17",
     "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
   },
@@ -28,28 +32,24 @@ self.__precacheManifest = [
     "url": "/static/media/coworking_bw_op.3a900651.jpg"
   },
   {
-    "revision": "1b312cf1194011bb065873bfba298c1a",
-    "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
-  },
-  {
-    "revision": "4eb0f9afb749f518671f",
-    "url": "/static/js/main.4eb0f9af.chunk.js"
+    "revision": "a10e74e919f882a01574",
+    "url": "/static/js/main.a10e74e9.chunk.js"
   },
   {
     "revision": "0d761771026fe81bf235138e173d729b",
     "url": "/static/media/Croatia_event_web_2-11.0d761771.png"
   },
   {
-    "revision": "66cdc33bf8fad00d5ed4a69d5ed26cee",
-    "url": "/static/media/Croatia_event_web_2-07.66cdc33b.png"
+    "revision": "d1d39692a24a44f0214202a10194bceb",
+    "url": "/static/media/Croatia_event_web_2-06.d1d39692.png"
   },
   {
     "revision": "7c7ea8866b2c8ee2426fb678624b32ee",
     "url": "/static/media/Croatia_event_web_2-08.7c7ea886.png"
   },
   {
-    "revision": "d1d39692a24a44f0214202a10194bceb",
-    "url": "/static/media/Croatia_event_web_2-06.d1d39692.png"
+    "revision": "66cdc33bf8fad00d5ed4a69d5ed26cee",
+    "url": "/static/media/Croatia_event_web_2-07.66cdc33b.png"
   },
   {
     "revision": "906131ca2c663c63bfbecca8fe24c619",
@@ -60,7 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png"
   },
   {
-    "revision": "d53a3cc7aa95a9947fb6f86b0ede229d",
+    "revision": "1d1c21bf064e68522606057dc4aa8f22",
+    "url": "/static/media/Hero-02_op.1d1c21bf.jpg"
+  },
+  {
+    "revision": "c88f0d05ae0e0a4b050f70132fc43ca9",
     "url": "/index.html"
   }
 ];

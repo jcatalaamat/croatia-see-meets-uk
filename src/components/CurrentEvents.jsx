@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import RedHeader from './RedHeader';
 
 
-const CurrentEvents = props => (
+const CurrentEvents = () => (
   <div className="current-events">
     <div className="content">
       <RedHeader spacing text="Current Events" />
@@ -32,9 +33,14 @@ European and global markets.
           <span className="p-contrast">
           To learn more about the event
             {' '}
+
+            {/* <Link style={{ textDecorationColor: '#e93732' }} to="/tech_futures_london_event_2019">
+              <span style={{ color: '#e93732' }}>click here</span>
+
+            </Link> */}
             <a
               style={{ textDecorationColor: '#e93732' }}
-              href="/tech_futures_london_event_2019"
+              href="#/tech_futures_london_event_2019"
               rel=""
               target="_blank"
             >

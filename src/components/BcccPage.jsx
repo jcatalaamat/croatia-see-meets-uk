@@ -55,13 +55,13 @@ class BcccPage extends Component {
         <div ref={ref => this.directorsRef = ref}>
           <BoardOfDirectors />
         </div>
-        <div ref={ref => this.applyRef = ref}>
+        {/* <div ref={ref => this.applyRef = ref}>
           <HowToApply />
         </div>
         <div ref={ref => this.aboutRef = ref}>
           <AboutBCCC />
         </div>
-        <Media />
+        <Media /> */}
         <Footer />
       </div>
     );

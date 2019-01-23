@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c5b9f5d12ab9d47d6f123802a62892b7",
-    "url": "/static/media/Croatia_event_web_2-10.c5b9f5d1.png"
+    "revision": "acb39a873881e1360f55b60df7837ac2",
+    "url": "/static/media/dubrovnik_bw_op.acb39a87.jpg"
   },
   {
-    "revision": "ddab1c401f252efbadc8",
-    "url": "/static/css/main.4720b3d9.chunk.css"
+    "revision": "d27bf965018782ab42ff",
+    "url": "/static/css/main.79f26698.chunk.css"
   },
   {
     "revision": "9b0e93ec8b7293c95925",
@@ -16,12 +16,16 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "540fa401dadee1beb8e685d14ffc80d8",
+    "url": "/static/media/citiy-bw_op.540fa401.jpg"
+  },
+  {
     "revision": "1d1c21bf064e68522606057dc4aa8f22",
     "url": "/static/media/Hero-02_op.1d1c21bf.jpg"
   },
   {
-    "revision": "540fa401dadee1beb8e685d14ffc80d8",
-    "url": "/static/media/citiy-bw_op.540fa401.jpg"
+    "revision": "1b312cf1194011bb065873bfba298c1a",
+    "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
   },
   {
     "revision": "3a9006517d08ba0412ed1b4df25ab2d0",
@@ -32,16 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
   },
   {
-    "revision": "1b312cf1194011bb065873bfba298c1a",
-    "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
+    "revision": "d27bf965018782ab42ff",
+    "url": "/static/js/main.d27bf965.chunk.js"
   },
   {
-    "revision": "ddab1c401f252efbadc8",
-    "url": "/static/js/main.ddab1c40.chunk.js"
-  },
-  {
-    "revision": "acb39a873881e1360f55b60df7837ac2",
-    "url": "/static/media/dubrovnik_bw_op.acb39a87.jpg"
+    "revision": "c5b9f5d12ab9d47d6f123802a62892b7",
+    "url": "/static/media/Croatia_event_web_2-10.c5b9f5d1.png"
   },
   {
     "revision": "d1d39692a24a44f0214202a10194bceb",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png"
   },
   {
-    "revision": "e316b459773eb58cddf21a106f49178f",
+    "revision": "4e16e894ddbb859fe2726bdc12ccf2bc",
     "url": "/index.html"
   }
 ];

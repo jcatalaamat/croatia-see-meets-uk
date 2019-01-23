@@ -42,18 +42,14 @@ const Agenda = () => (
           <Bullet text="Blockchain coding practices training for novices & intermediates on blockchain technology, coding techniques and technology basics." />
 
           <p>
-            <i>
             Training provided by
-              {' '}
-            </i>
+            {' '}
             <b>Gary Nuttall MBCS CITP</b>
-            <i>
           , Blockchain / DLT / ICO consultant,
 educator and trainer with 25 years of experience in a variety of IT roles in the
 CPG/FMCG, Commodities Trading, Pharmaceuticals, Retailing and Insurance
 industries and an established profile in Distributed Ledger technologies, and
 associates.
-            </i>
             {' '}
             <a href="https://www.linkedin.com/in/garynuttall" rel="noopener noreferrer" target="_blank"><span className="purple">www.linkedin.com/in/garynuttall</span></a>
           </p>
@@ -89,7 +85,7 @@ associates.
 
           <Panel
             title="PANEL 1: Let's talk about techs"
-            text="Overview of the tech marketplace, current developments and opinion on the future of FinTech, RegTech, GovTech, HealthTech, Blockchain and it's successors. Foretelling the future and the likely impact of tech on corporate business practices today"
+            text="Overview of the tech marketplace, current developments and opinion on the future of FinTech, RegTech, GovTech, HealthTech, Blockchain and it's successors. Foretelling the future and the likely impact of tech on corporate business practices today."
           />
           <Panel
             title="PANEL 2: Show me the money!"
@@ -116,7 +112,7 @@ associates.
           <TimeDay text="Evening (6.00 pm - 8.00 pm)" />
           <Bullet
             bold="Pitch Night"
-            text="; approx. 6 pitchers to UK wealth/fund managers, angels, PE/VC etc"
+            text="; approx. 6 pitchers to UK wealth/fund managers, angels, PE/VC etc."
           />
           <div>
             <TimeDay text="Night Out " />
@@ -138,7 +134,7 @@ associates.
           <TimeDay text="Morning" />
           <Bullet text="Breakfast at hotel" />
           <Bullet text="Delegates wishing to stay longer may take advantage of BCCC’s special discounted rates for a further night’s stay at Nobu Hotel Shoreditch" />
-          <Bullet text="Delegates returning to Zagreb with BCCC are invited to travel with us courtesy of our private coach transfer to London Heathrow airport" />
+          <Bullet text="Delegates returning to Zagreb with BCCC are invited to travel with us, courtesy of our private coach transfer to London Heathrow airport" />
         </div>
 
       </div>

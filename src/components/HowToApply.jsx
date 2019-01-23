@@ -30,14 +30,14 @@ evening pitch.
 
           </p>
           <p>
-          *if you're a Start-up or an Investor and you require accommodation, or anything
+          *If you're a Start-up or an Investor and you require accommodation, or anything
 else for that matter, and want to take advantage of our block booking at Nobu Hotel
-Shoreditch, please let us know
+Shoreditch, please let us know.
 
           </p>
           <p>
 The event has a minimum of 40 (max 50) Delegates capacity for the first day and
-100 for the second day
+100 for the second day.
 
           </p>
           <p>

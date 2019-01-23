@@ -97,11 +97,11 @@ in Croatia for many years.
                   <span className="box-grey__text">
                   Head of Events and Administration. Dina provides
 support for our Events and is responsible for
-liason with BCCC Members. Dina has a
+liaison with BCCC Members. Dina has a
 Bachelor's degree in Business & Economics and a
 Master's in Management from the University of
 Zagreb and a Certificate in Management
-Consultancy & Project Management at the London
+Consultancy & Project Management from the London
 School of Business & Finance.
                   </span>
                 </div>

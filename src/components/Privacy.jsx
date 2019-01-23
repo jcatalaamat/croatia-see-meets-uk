@@ -10,7 +10,7 @@ const Privacy = () => (
 At British Croatian Chamber of Commerce Limited ("BCCC", “we”, “us” or “our”) we are committed to safeguarding and preserving the privacy of our members and guests. This Privacy Policy sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our practices regarding your personal data and how we will treat it.
         <br />
         <br />
-For the purpose of the EU General Data Protection Regulation (“GDPR”) and complementary UK legislation, we are the data controller for any personal information gathered by this website or by other sources. Our registered address British Croatian Chamber of Commerce, c/o Wikborg Rein LLP, 30 Cannon Street, London EC4M 6XH, Company registered number: 03568235
+For the purpose of the EU General Data Protection Regulation (“GDPR”) and complementary UK legislation, we are the data controller for any personal information gathered by this website or by other sources. Our registered address is British Croatian Chamber of Commerce, c/o Wikborg Rein LLP, 30 Cannon Street, London EC4M 6XH, Company registered number: 03568235
         <br />
         <br />
 We do update this Policy from time to time so please do review this Policy regularly.
@@ -44,7 +44,7 @@ Our staff – we hold personal data in respect of our employees, directors, cont
         <br />
         <br />
 
-Under the GDPR there must be a lawful basis for processing your personal data. As outlined above, we will only do so for the purpose of running our business, to provide information to you that you request from us relating to our products or services, to fulfil contractual obligations, or to provide information to interested parties making reasonable enquiries. In terms of the GDPR, we will be processing either on the lawful basis of fulfilling a contractual obligation, or the lawful basis of being in the legitimate interests of our business or customers. Finally, we may process on the lawful basis of fulfilling a legal obligation if this is applicable.
+Under the GDPR there must be a lawful basis for processing your personal data. As outlined above, we will only do so for the purpose of running our business, to provide information to you that you request from us relating to our products or services, to fulfill contractual obligations, or to provide information to interested parties making reasonable enquiries. In terms of the GDPR, we will be processing either on the lawful basis of fulfilling a contractual obligation, or the lawful basis of being in the legitimate interests of our business or customers. Finally, we may process on the lawful basis of fulfilling a legal obligation if this is applicable.
         <br />
         <br />
 We also process your personal data on the lawful basis of consent where you have opted to receive information about future events at BCCC. You may withdraw this consent at any time by unsubscribing from our mailing list as described above. We do not ever sell or pass personal data to third parties for marketing purposes.

@@ -54,10 +54,7 @@ training in blockchain, from introductory
 explanations to distributed ledgers through
 to looking at lower-level coding and how to
 set up and run an ICO and STO etc.
-introductory explanations to distributed
-ledgers through to looking at lower-level
-coding and how to set up and run an ICO
-and STO etc. Training will be provided by
+Training will be provided by
 the BCCC's own accredited educator and
 delegates will receive a full training
 certificate (the accreditation for the event

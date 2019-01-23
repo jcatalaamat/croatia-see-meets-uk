@@ -7,7 +7,7 @@ const Contacts = () => (
       <RedHeader spacing text="Contacts" />
       <div className="encode-text">
         <p>
-          <span className="p-contrast">please send all inquiries to:</span>
+          <span className="p-contrast">Please send all inquiries to:</span>
 
         </p>
         <div><span className="red-bg-underline"><a className="red-bg-underline" href="mailto:info@britishcroatiancc.co.uk">info@britishcroatiancc.co.uk</a></span></div>

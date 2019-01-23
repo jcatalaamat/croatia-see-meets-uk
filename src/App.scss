@@ -52,14 +52,15 @@ h6 {
     //font-size: 12px;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
 p {
   font-size: 12px;
   @media only screen and (min-width: 768px) {
-    font-size: 17px;
+    line-height: 20px;
+    font-size: 16px;
   }
 }
 
@@ -477,6 +478,10 @@ p {
   background-color: white;
   color: black;
 
+  @media only screen and (min-width: 768px) {
+    line-height: 20px;
+  }
+
   &-bccc {
     font-size: 20px;
     line-height: 30px;
@@ -484,14 +489,14 @@ p {
     padding: 1px 0 1px 0;
     background-color: white;
     color: black;
-  @media only screen and (min-width: 768px) {
-    font-size: 27px;
-    line-height: 40px;
-  }
+    @media only screen and (min-width: 768px) {
+      font-size: 27px;
+      line-height: 40px;
+    }
   }
 
   &-red {
-    font-size: 17px;
+    font-size: 16px;
     box-shadow: 6px 0 0 white, -6px 0 0 white;
   line-height: 16px;
   padding: 1px 0 1px 0;
@@ -641,7 +646,7 @@ p {
   &__text {
     font-size: 12px;
     @media only screen and (min-width: 768px) {
-      font-size: 17px;
+      font-size: 16px;
     }
 
     &-container {
@@ -703,7 +708,7 @@ p {
   &__text {
     font-size: 12px;
     @media only screen and (min-width: 768px) {
-      font-size: 17px;
+      font-size: 16px;
     }
 
     &-container {
@@ -763,7 +768,7 @@ p {
   &__text {
     font-size: 12px;
     @media only screen and (min-width: 768px) {
-      font-size: 17px;
+      font-size: 16px;
     }
 
     &-container {
@@ -1228,7 +1233,7 @@ p {
   @media only screen and (min-width: 768px) {
     font-size: 20px;
   }
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 16px;
   padding: 2px 0 2px 0;

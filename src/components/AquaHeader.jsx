@@ -8,12 +8,16 @@ const AquaHeader = (props) => {
     medium,
     spacing,
     spacingTop,
+    noBottom,
+    noTop,
   } = props;
   const containerClass = classnames({
     'aqua-header__container--spacing': spacing,
     'aqua-header__container--spacingTop': spacingTop,
     'aqua-header__container--small': small,
     'aqua-header__container--medium': medium,
+    'aqua-header__container--noBottom': noBottom,
+    'aqua-header__container--noTop': noTop,
     'aqua-header__container': true,
   });
 

@@ -382,6 +382,12 @@ p {
       padding-top: 60px;
     }
   }
+  &--noBottom {
+    padding-bottom: 0;
+  }
+  &--noTop {
+    padding-top: 0;
+  }
 }
 .aqua-header__text{
   background-color: #00ffff;

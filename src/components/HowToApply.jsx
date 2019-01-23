@@ -8,8 +8,8 @@ const HowToApply = () => (
   <div className="how-to-apply">
     <div className="question-mark">
       <div className="content">
-        <AquaHeader spacingTop text="How much does it cost?" />
-        <AquaHeader text="And how do I apply?" />
+        <AquaHeader noBottom spacingTop text="How much does it cost?" />
+        <AquaHeader noTop text="And how do I apply?" />
         <div className="encode-text">
           <p>
         Event is priced at GBP 1500 per delegate which includes the following:

@@ -11,7 +11,7 @@ const AboutTheEvent = () => (
         <p className="no-margin">
           <b>
           The British Croatian Chamber of Commerce (BCCC)
-is offering an all-in TECH FUTURES LONDON 2019.
+is offering TECH FUTURES LONDON 2019.
           </b>
         </p>
         <p>
@@ -46,14 +46,9 @@ exploit potential market gaps.
       <div className="stage">
         <SmallSection header={'The "Coding" stage'}>
           <p className="no-margin">
-      Like a true start-up, delegates will do the
-legwork to begin to move from ideas and
-inception into creation. The morning of the
-second day will consist of professional
-training in blockchain, from introductory
-explanations to distributed ledgers through
-to looking at lower-level coding and how to
-set up and run an ICO and STO etc.
+          The morning of the second day will consist of professional training in blockchain, from
+introductory explanations on distributed ledgers through to looking at how the software works and the practicalities
+of how to set up and run an ICO and STO etc.
 Training will be provided by
 the BCCC's own accredited educator and
 delegates will receive a full training

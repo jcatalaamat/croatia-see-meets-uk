@@ -40,28 +40,25 @@ const Title = (props) => {
         <div className="p-max">
           <p>
             <span className="p-contrast">
-            A unique package event of Professional CPD Education, Pitching and
-            Networking in the City's tech-fuelled ‘Silicon Roundabout’ area of Shoreditch.
+            A unique 2-day event of professional CPD-accredited business education on the basics and practical
+implementation of distributed ledger technology, plus panel discussions on the future of tech-family of innovations
+(FinTech, RegTech, HealthTech, GovTech), pitching for Croatian and SEE start-ups and networking.
             </span>
           </p>
           <p>
             <span className="p-contrast">
-            The event is intended for Croatian, SEE and British
-            professional investors, business delegates and start-ups
-            looking to advance their business and knowledge of the
-            tech-family of innovations (fintech, regtech, healthtech,
-            govtech), blockchain and gain insights on the digital
-            futures and opportunities in European and global markets.
+            The event is intended for Croatian, SEE and British business delegates (banking, law, healthcare, insurance,
+corporates, ICT and others) looking to advance their business and technical knowledge and gain insights on the
+digital futures and opportunities in SEE, European and global markets.
             </span>
           </p>
           <p>
             <span className="p-contrast">
               <b>
-            The event is offered as an all-inclusive package where
-            the price includes participation in all the business, social
-            and networking events, bed-and-breakfast
-            accommodation at the Nobu Shoreditch hotel as well as
-            food and drinks throughout the days.
+              Taking place at TechSpace in the City of London's tech-fuelled 'Silicon Roundabout' area of Shoreditch, the event
+is offered as an organised package where the price includes participation in all the business and networking events,
+food and drinks throughout the 2 days and a CPD-accredited professional education certificate on distributed ledger
+technology.
               </b>
             </span>
           </p>

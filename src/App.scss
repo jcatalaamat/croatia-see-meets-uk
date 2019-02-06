@@ -301,6 +301,10 @@ p {
 
 .no-margin {
   margin: 0;
+
+  &-top {
+    margin-top: 0;
+  }
 }
 
 .header-menu {

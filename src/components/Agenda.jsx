@@ -21,9 +21,8 @@ const Agenda = () => (
         <div className="day-agenda">
           <Day text="Day 0 (27 March 2019):" />
           <Bullet text="Arrivals to London" />
-          <Bullet text="For delegates arriving with BCCC chaperone from Zagreb into Heathrow we will provide a private coach transfer from LHR to the hotel" />
-          <Bullet text="Check-in at Nobu Hotel in Shoreditch" />
-          <Bullet text="Informal welcome dinner and drinks hosted by BCCC and friends at Nobu bar and restaurant" />
+          <Bullet text="For delegates arriving with BCCC chaperone from Zagreb into Heathrow we will provide a private coach transfer from LHR into London city" />
+          <Bullet text="Informal welcome dinner and drinks hosted by BCCC and friends" />
         </div>
       </div>
     </div>
@@ -36,12 +35,34 @@ const Agenda = () => (
 
           <TimeDay text="Morning & Afternoon (9:30 am - 4:30 pm)" />
           <Bullet text="INTRO: Agenda and scene setting" />
-          <h5 className="paddingTop--small">CPD Accredited training on Blockchain and coding basics</h5>
-
-          <Bullet text='Practical introduction and insights on the history, development, use Blockchain coding practices training application of blockchains and distributed ledger tech, as well as crypto-currencies, including case studies of this tech in action; how "tokens" work; classification of token types; investment options, ICOs and STOs, buying and selling crypto-currencies and more.' />
-          <Bullet text="Blockchain coding practices training for novices & intermediates on blockchain technology, coding techniques and technology basics." />
+          <h5 className="paddingTop--small">CPD-accredited training on distributed ledger technology (blockchain)</h5>
 
           <p>
+The course is modular in nature and is intended to take the attendee right from first principles and what the various
+terms mean, on to how the technology works and covers use cases across a number of industries to illustrate how
+companies and organisations are exploring and adopting blockchain/Distributed Ledger Technology.
+
+          </p>
+
+          <Bullet text='Practical introduction and insights on the history, development and use of blockchain and distributed
+ledger tech, as well as an insight into crypto-currencies including case studies of this tech in action;
+how "tokens" work; classification of token types; investment options, ICOs and STOs, buying and
+selling crypto-currencies and more.'
+          />
+          {/* <Bullet text="Blockchain coding practices training for novices & intermediates on blockchain technology, coding techniques and technology basics." /> */}
+          <p>
+The British Croatian Chamber of Commerce is itself an accredited training organisation with the UK CPD and our
+education is designed for Chamber members and our guests. You don’t need to be a developer. The goal of this
+education is to introduce you to blockchain's business background and to provide practical examples of how this
+can help – potentially – your organisation, industry or region.
+
+          </p>
+          <p>
+          For the detailed curriculum of this specialist business education please
+            {' '}
+            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple">click here</span></a>
+          </p>
+          {/* <p>
             Training provided by
             {' '}
             <b>Gary Nuttall MBCS CITP</b>
@@ -58,7 +79,7 @@ associates.
             {' '}
             <span className="purple--underline">CPD Accreditation Service</span>
           .
-          </p>
+          </p> */}
 
           <TimeDay text="Breaks" />
           <Bullet text="Coffee, nibbles and smoothies" />
@@ -68,7 +89,7 @@ associates.
           <Bullet text="Walking tour of Shoreditch (graffiti, history, vibe with a witty local guide)" />
 
           <TimeDay text="Evening" />
-          <Bullet text="Dinner at Nuala restaurant and whisky tasting at Black Rock bar in Shoreditch" />
+          <Bullet text="Dinner at Tramshed restaurant and whiskey tasting at Black Rock bar in Shoreditch" />
         </div>
 
       </div>
@@ -85,7 +106,9 @@ associates.
 
           <Panel
             title="PANEL 1: Let's talk about techs"
-            text="Overview of the tech marketplace, current developments and opinion on the future of FinTech, RegTech, GovTech, HealthTech, Blockchain and it's successors. Foretelling the future and the likely impact of tech on corporate business practices today."
+            text="Overview of the tech marketplace, current developments and opinion on the future of FinTech, RegTech, GovTech,
+HealthTech, Data, Blockchain and it's successors. Foretelling the future and the likely impact of tech on corporate
+business practices today"
           />
           <Panel
             title="PANEL 2: Show me the money!"
@@ -109,10 +132,9 @@ associates.
             – a very cool place nearby
             </span>
           </div>
-          <TimeDay text="Evening (6.00 pm - 8.00 pm)" />
+          <TimeDay text="Pitch Night (6.00 pm - 8.00 pm)" />
           <Bullet
-            bold="Pitch Night"
-            text="; approx. 6 pitchers to UK wealth/fund managers, angels, PE/VC etc."
+            text="Approx. 6 start-ups pitching to UK wealth/fund managers, angels, PE/VC etc"
           />
           <div>
             <TimeDay text="Night Out " />
@@ -130,13 +152,8 @@ associates.
       <div className="content">
         <div className="day-agenda">
           <Day text="Day 3 (30 March 2019):" />
-
-          <TimeDay text="Morning" />
-          <Bullet text="Breakfast at hotel" />
-          <Bullet text="Delegates wishing to stay longer may take advantage of BCCC’s special discounted rates for a further night’s stay at Nobu Hotel Shoreditch" />
           <Bullet text="Delegates returning to Zagreb with BCCC are invited to travel with us, courtesy of our private coach transfer to London Heathrow airport" />
         </div>
-
       </div>
     </div>
   </div>

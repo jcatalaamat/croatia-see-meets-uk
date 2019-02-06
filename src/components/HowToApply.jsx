@@ -12,9 +12,8 @@ const HowToApply = () => (
         <AquaHeader noTop text="And how do I apply?" />
         <div className="encode-text">
           <p>
-        Event is priced at GBP 1500 per delegate which includes the following:
+        The event is priced at GBP 989 per delegate which includes the following:
           </p>
-          <Bullet text="3 nights at Nobu Hotel Shoreditch (breakfast included)" />
           <Bullet text="Participation as a Delegate in both days of the event" />
           <Bullet text="CPD accredited Certificate of Professional Education on Blockchain" />
           <Bullet text="Lunch on Day 1 and Day 2" />
@@ -23,6 +22,12 @@ const HowToApply = () => (
           <Bullet text="Coffee, tea, nibbles and pastries through the days" />
           <Bullet text="Coach transfer from and to LHR for those traveling with BCCC from Zagreb" />
 
+          <p>
+  BCCC has secured preferential rates with the following hotels in close
+vicinity of TechSpace which is the event venue: Nobu hotel Shoreditch, The Curtain Hotel Shoreditch, The Hoxton
+Hotel, Point A Hotel Shoreditch. If you wish to stay at any of these hotels, please use our exclusive voucher code
+"BCCC" when making your reservations.
+          </p>
 
           <p>
           The event is free of charge for Start-ups and Investors participating in the Day 2
@@ -30,9 +35,9 @@ evening pitch.
 
           </p>
           <p>
-          *If you're a Start-up or an Investor and you require accommodation, or anything
-else for that matter, and want to take advantage of our block booking at Nobu Hotel
-Shoreditch, please let us know.
+          *If you wish to participate in this event as an
+investor or a Start-up for the Pitch night that takes place in the evening of 29th of March, please get in touch with
+us directly.
 
           </p>
           <p>
@@ -53,7 +58,7 @@ event are done in a two stage process.
       <AquaHeader medium text="First Step" />
       <div className="encode-text">
         <p>
-Until 15th of February 2019 we will be inviting Expressions of Interest which you
+Until 20th of February 2019 we will be inviting Expressions of Interest which you
 can send to us via email:
           {' '}
           <a href="mailto:events@britishcroatiancc.co.uk"><span className="purple--underline">events@britishcroatiancc.co.uk</span></a>
@@ -101,11 +106,10 @@ Stephen: +44 (0) 7973 666178 –
           <Bullet text="Telephone" />
           <Bullet text="Email" />
           <Bullet text="LinkedIn" />
-          <Bullet text="Will you be requiring a CPQ Certificate: Yes | No" />
         </div>
 
       </div>
-      <div className="column">
+      {/* <div className="column">
         <div className="column-inner">
           <PurpleLine spacingTop text="Are you a Delegate, Investor or Pitcher?" />
           <Bullet text="Attending as: Delegate | Investor | Startup" />
@@ -113,8 +117,7 @@ Stephen: +44 (0) 7973 666178 –
           <Bullet text="Dates Required for Accommodation: Wednesday 27th | Thursday 28th | Friday 29th | Saturday 30th" />
           <Bullet text="Please ask questions and write all your comments." />
         </div>
-
-      </div>
+      </div> */}
     </div>
     <div className="separator separator-nobottom" />
     <div className="electron">

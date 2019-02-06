@@ -9,23 +9,21 @@ const WhyParticipate = () => (
         <div className="why-participate__container--text">
           <p>
             <span className="p-contrast">
-            As a
-              {' '}
-              <span className="purple">delegate</span>
-              {' '}
-              you'll meet and network with Croatian and SEE start-up companies and
+          You will get to take home a CPD accredited certificate of your continuous personal development on distributed ledger technology and the knowledge
+transfer of a full day of training and education provided by our expert tutors.
+            </span>
+          </p>
+          <p>
+            <span className="p-contrast">
+            You'll meet and network with Croatian and SEE start-up companies and
               London-based professional investors, learning first-hand about some of the hopes, goals,
               highs & lows experienced by tech entrepreneurs and their potential capital partners.
             </span>
           </p>
           <p>
             <span className="p-contrast">
-            As a
-              {' '}
-              <span className="purple">start-up and entrepreneur</span>
-              {' '}
-              you'll get a chance to pitch your business or idea to
-              experienced and interested UK private angel investors, wealth and discretionary fund
+            You will get to witness start-ups and entrepreneurs
+pitching their business and ideas to experienced and interested UK private angel investors, wealth and discretionary fund
               managers, venture capitalists, private equity professionals and a whole range of capital in
               between.
             </span>
@@ -54,14 +52,8 @@ const WhyParticipate = () => (
             <h3 className="box-purple__header">And don't forget</h3>
             <div className="box-purple__text-container">
               <span className="box-purple__text">
-              You get to take home a CPD accredited Certificate of
-                {' '}
-                <b>Professional Education on blockchain</b>
-                {' '}
-                coding basics and the
-                knowledge transfer of a full day of
-                professional training & education
-                provided by best expert tutors.
+              Please follow this webpage for the final list of Pitchers and Investors as well as other
+updates.
               </span>
             </div>
           </div>

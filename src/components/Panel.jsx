@@ -17,7 +17,7 @@ const Panel = (props) => {
         <i>{italic}</i>
       </h5>
       {text && <p className="no-margin">{text}</p>}
-      {children && <p className="no-margin">{children}</p>}
+      {children && <div className="no-margin">{children}</div>}
     </div>
   );
 };

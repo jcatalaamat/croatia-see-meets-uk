@@ -30,11 +30,6 @@ Hotel, Point A Hotel Shoreditch. If you wish to stay at any of these hotels, ple
           </p>
 
           <p>
-          The event is free of charge for Start-ups and Investors participating in the Day 2
-evening pitch.
-
-          </p>
-          <p>
           *If you wish to participate in this event as an
 investor or a Start-up for the Pitch night that takes place in the evening of 29th of March, please get in touch with
 us directly.

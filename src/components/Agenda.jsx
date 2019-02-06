@@ -58,9 +58,9 @@ can help – potentially – your organisation, industry or region.
 
           </p>
           <p>
-          For the detailed curriculum of this specialist business education please
+            <b>For the detailed CURRICULUM of this specialist business education please</b>
             {' '}
-            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple">click here</span></a>
+            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple"><b>click here</b></span></a>
           </p>
           {/* <p>
             Training provided by

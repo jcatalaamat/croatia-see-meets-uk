@@ -60,7 +60,7 @@ can help – potentially – your organisation, industry or region.
           <p>
             <b>For the detailed CURRICULUM of this specialist business education please</b>
             {' '}
-            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple"><b>click here</b></span></a>
+            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple--underline"><b>click here</b></span></a>
           </p>
           {/* <p>
             Training provided by

@@ -40,9 +40,11 @@ const Title = (props) => {
         <div className="p-max">
           <p>
             <span className="p-contrast">
-            A unique 2-day event of professional CPD-accredited business education on the basics and practical
-implementation of distributed ledger technology, plus panel discussions on the future of tech-family of innovations
-(FinTech, RegTech, HealthTech, GovTech), pitching for Croatian and SEE start-ups and networking.
+            A unique 2-day event of professional CPD-accredited business education with world
+            class trainer and educator Gary Nuttall and associates on the basics and practical
+            implementation of distributed ledger technology, plus panel discussions on the
+            future of tech-family of innovations (FinTech, RegTech, HealthTech, GovTech),
+            pitching for Croatian and SEE start-ups and networking.
             </span>
           </p>
           <p>

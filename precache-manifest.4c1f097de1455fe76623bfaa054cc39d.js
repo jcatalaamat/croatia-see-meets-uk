@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-10.c5b9f5d1.png"
   },
   {
-    "revision": "d149f99e685228aa5e62",
+    "revision": "fe1319fb63ff9982c8b3",
     "url": "/static/css/main.9c90c89a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/Hero-02_op.1d1c21bf.jpg"
   },
   {
-    "revision": "540fa401dadee1beb8e685d14ffc80d8",
-    "url": "/static/media/citiy-bw_op.540fa401.jpg"
+    "revision": "6fe98b028af44dc48f6a99874852ab17",
+    "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
   },
   {
     "revision": "3a9006517d08ba0412ed1b4df25ab2d0",
@@ -32,16 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
   },
   {
-    "revision": "6fe98b028af44dc48f6a99874852ab17",
-    "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
-  },
-  {
-    "revision": "d149f99e685228aa5e62",
-    "url": "/static/js/main.d149f99e.chunk.js"
-  },
-  {
     "revision": "acb39a873881e1360f55b60df7837ac2",
     "url": "/static/media/dubrovnik_bw_op.acb39a87.jpg"
+  },
+  {
+    "revision": "fe1319fb63ff9982c8b3",
+    "url": "/static/js/main.fe1319fb.chunk.js"
   },
   {
     "revision": "d1d39692a24a44f0214202a10194bceb",
@@ -68,7 +64,11 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png"
   },
   {
-    "revision": "f825b78cfb20b4ba2382a8c279a0779a",
+    "revision": "540fa401dadee1beb8e685d14ffc80d8",
+    "url": "/static/media/citiy-bw_op.540fa401.jpg"
+  },
+  {
+    "revision": "86031ab6ac9311749c0d2c9798d3f220",
     "url": "/index.html"
   }
 ];

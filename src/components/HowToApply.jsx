@@ -23,13 +23,6 @@ const HowToApply = () => (
           <Bullet text="Coach transfer from and to LHR for those traveling with BCCC from Zagreb" />
 
           <p>
-  BCCC has secured preferential rates with the following hotels in close
-vicinity of TechSpace which is the event venue: Nobu hotel Shoreditch, The Curtain Hotel Shoreditch, The Hoxton
-Hotel, Point A Hotel Shoreditch. If you wish to stay at any of these hotels, please use our exclusive voucher code
-"BCCC" when making your reservations.
-          </p>
-
-          <p>
           *If you wish to participate in this event as an
 investor or a Start-up for the Pitch night that takes place in the evening of 29th of March, please get in touch with
 us directly.

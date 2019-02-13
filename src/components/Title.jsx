@@ -64,6 +64,14 @@ technology.
               </b>
             </span>
           </p>
+
+          <p>
+            <span className="p-contrast">
+              <b>
+              Event is organised by British Croatian Chamber of Commerce, with support of Embassy of the Republic of Croatia in the UK.
+              </b>
+            </span>
+          </p>
         </div>
 
       </div>

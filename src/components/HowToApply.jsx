@@ -12,15 +12,13 @@ const HowToApply = () => (
         <AquaHeader noTop text="And how do I apply?" />
         <div className="encode-text">
           <p>
-        The event is priced at GBP 989 per delegate which includes the following:
+        The event is priced at GBP 550 per delegate which includes the following:
           </p>
           <Bullet text="Participation as a Delegate in both days of the event" />
           <Bullet text="CPD accredited Certificate of Professional Education on Blockchain" />
           <Bullet text="Lunch on Day 1 and Day 2" />
           <Bullet text="Dinner and drinks on arrival" />
-          <Bullet text="Dinner, drinks and night out on Day 1 and Day 2" />
           <Bullet text="Coffee, tea, nibbles and pastries through the days" />
-          <Bullet text="Coach transfer from and to LHR for those traveling with BCCC from Zagreb" />
 
           <p>
           *If you wish to participate in this event as an

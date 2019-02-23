@@ -39,13 +39,6 @@ pitching their business and ideas to experienced and interested UK private angel
               and will be Croatian and SEE in origin or by association.
             </span>
           </p>
-          <p>
-            <span className="p-contrast">
-            On the side-lines you will get a chance for a deep-dive of the social life of London's thriving
-            start-up scene with evenings organised by our professional social event manager at edgy
-            and exclusive locations in and around Shoreditch.
-            </span>
-          </p>
         </div>
         <div className="why-participate__container--square">
           <div className="box-purple">

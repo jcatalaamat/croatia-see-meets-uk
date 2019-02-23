@@ -21,7 +21,6 @@ const Agenda = () => (
         <div className="day-agenda">
           <Day text="Day 0 (27 March 2019):" />
           <Bullet text="Arrivals to London" />
-          <Bullet text="For delegates arriving with BCCC chaperone from Zagreb into Heathrow we will provide a private coach transfer from LHR into London city" />
           <Bullet text="Informal welcome dinner and drinks hosted by BCCC and friends" />
         </div>
       </div>
@@ -87,9 +86,6 @@ associates.
 
           <TimeDay text="Afternoon" />
           <Bullet text="Walking tour of Shoreditch (graffiti, history, vibe with a witty local guide)" />
-
-          <TimeDay text="Evening" />
-          <Bullet text="Dinner at Tramshed restaurant and whiskey tasting at Black Rock bar in Shoreditch" />
         </div>
 
       </div>
@@ -103,6 +99,17 @@ associates.
           <TimeDay text="Morning (start at 9.00 am)" />
           <Bullet text="Formal welcome and introduction by HM Government Minister / Shadow Minister (to be confirmed)" />
           <Bullet text="Agenda and scene setting" />
+
+          <TimeDay text="Breaks" />
+          <Bullet text="Coffee, nibbles and smoothies" />
+          <Bullet text="Lunch - healthy and refreshing food for the brain" />
+
+          <p>
+            <br />
+            <b>List of Moderators and Panellists</b>
+            {' '}
+            <a href="../../TechFuturesLondon2019-Panellists.pdf" target="_blank"><span className="purple--underline"><b>here</b></span></a>
+          </p>
 
           <Panel
             title="PANEL 1: Let's talk about techs"
@@ -123,7 +130,7 @@ business practices today"
             text="What sort of life is there after Brexit, should one look at setting up shop in UK and what is there to gain."
           />
 
-          <TimeDay text="Breaks" />
+          {/* <TimeDay text="Breaks" />
           <Bullet text="Coffee, nibbles and smoothies" />
           <div>
             <TimeDay text="Lunch (3.00 pm - 4.30 pm) " />
@@ -131,31 +138,16 @@ business practices today"
               {' '}
             – a very cool place nearby
             </span>
-          </div>
+          </div> */}
           <TimeDay text="Pitch Night (6.00 pm - 8.00 pm)" />
           <Bullet
             text="Approx. 6 start-ups pitching to UK wealth/fund managers, angels, PE/VC etc"
           />
-          <div>
-            <TimeDay text="Night Out " />
-            <span className="p-size">
-              {' '}
-            – Blues Kitchen, Shoreditch
-            </span>
-          </div>
         </div>
       </div>
 
     </div>
-    <div className="separator" />
-    <div className="day-three">
-      <div className="content">
-        <div className="day-agenda">
-          <Day text="Day 3 (30 March 2019):" />
-          <Bullet text="Delegates returning to Zagreb with BCCC are invited to travel with us, courtesy of our private coach transfer to London Heathrow airport" />
-        </div>
-      </div>
-    </div>
+    <div className="separator-empty" />
   </div>
 );
 

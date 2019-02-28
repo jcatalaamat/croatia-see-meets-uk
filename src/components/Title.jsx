@@ -68,7 +68,7 @@ technology.
           <p>
             <span className="p-contrast">
               <b>
-              Event is organised by British Croatian Chamber of Commerce, with support of Embassy of the Republic of Croatia in the UK and in partnership with British Serbian Chamber of Commerce.
+              Event is organised by British Croatian Chamber of Commerce; with support of PwC Croatia, the auspices of Embassy of the Republic of Croatia in the UK, and in partnership with Croatian Blockchain and Cryptocurrency Association and British Serbian Chamber of Commerce.
               </b>
             </span>
           </p>

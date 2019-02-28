@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-10.c5b9f5d1.png"
   },
   {
-    "revision": "9814059971dcc9027dfd",
+    "revision": "4bfd311cc928ec1c929c",
     "url": "/static/css/main.1c21221b.chunk.css"
   },
   {
@@ -36,12 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
   },
   {
-    "revision": "9814059971dcc9027dfd",
-    "url": "/static/js/main.98140599.chunk.js"
-  },
-  {
-    "revision": "d1d39692a24a44f0214202a10194bceb",
-    "url": "/static/media/Croatia_event_web_2-06.d1d39692.png"
+    "revision": "4bfd311cc928ec1c929c",
+    "url": "/static/js/main.4bfd311c.chunk.js"
   },
   {
     "revision": "acb39a873881e1360f55b60df7837ac2",
@@ -64,11 +60,15 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-09.906131ca.png"
   },
   {
+    "revision": "d1d39692a24a44f0214202a10194bceb",
+    "url": "/static/media/Croatia_event_web_2-06.d1d39692.png"
+  },
+  {
     "revision": "b7a8b4dc8eeabe8c211b2fda8959fe54",
     "url": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png"
   },
   {
-    "revision": "4c3386b39ae7ccd435e51cae12ac4689",
+    "revision": "301a46f0aec77aefee24799ccb60ccbe",
     "url": "/index.html"
   }
 ];

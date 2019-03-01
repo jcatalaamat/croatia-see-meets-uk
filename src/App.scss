@@ -87,14 +87,22 @@ p {
 
 .pwc-logo {
   background-image: url(./assets/png/pwc-logo.png);
-  background-size: 60px;
+  background-size: 80px;
   background-repeat: no-repeat;
 
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  right: 15%;
-  top: 190px;
+  right: 10%;
+  top: 150px;
+
+  @media only screen and (min-width: 400px) {
+    width: 90px;
+    height: 90px;
+    background-size: 90px;
+    top: 155px;
+    right: 15%;
+  }
 
   @media only screen and (min-width: 768px) {
     width: 100px;

@@ -35,6 +35,7 @@ const Title = (props) => {
         <h1>Croatia and SEE* meets the UK</h1>
         <h6>*SEE: Southeastern Europe</h6>
       </div>
+      <div className="pwc-logo" />
       <div className="content">
         <AquaHeader small text="London, 28/29 March 2019 at TechSpace Shoreditch" />
         <div className="p-max">
@@ -68,7 +69,7 @@ technology.
           <p>
             <span className="p-contrast">
               <b>
-              Event is organised by British Croatian Chamber of Commerce; with support of PwC Croatia, the auspices of Embassy of the Republic of Croatia in the UK, and in partnership with Croatian Blockchain and Cryptocurrency Association and British Serbian Chamber of Commerce.
+              Event is organised by British Croatian Chamber of Commerce; with support of PwC Croatia, the auspices of Embassy of the Republic of Croatia in the UK, and in partnership with and British Serbian Chamber of Commerce.
               </b>
             </span>
           </p>

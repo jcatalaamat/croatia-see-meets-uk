@@ -85,7 +85,25 @@ p {
   padding-bottom: 50px;
 }
 
+.pwc-logo {
+  background-image: url(./assets/png/pwc-logo.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
 
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 15%;
+  top: 190px;
+
+  @media only screen and (min-width: 768px) {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    top: 150px;
+    right: 13%;
+  }
+}
 
 .bottom-arrow {
    background-image: url(./assets/png/Croatia_event_web_2-04.png);

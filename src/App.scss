@@ -85,8 +85,23 @@ p {
   padding-bottom: 50px;
 }
 
+.supremefactory-logo {
+  background-image: url(./assets/png/supremefactory-logo-square.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 135px;
+  position: relative;
+  
+    @media only screen and (min-width: 768px) {
+      width: 20%;
+      height: 150px;
+      background-size: 100%;
+    }
+}
+
 .entrepreneurs-logo {
-//background-image: url(./assets/png/pwc-logo.png);
 background-image: url(./assets/png/entrepreneurs.jpg);
 background-size: 40%;
 background-repeat: no-repeat;
@@ -95,19 +110,11 @@ width: 100%;
 height: 50px;
 position: relative;
 
-// @media only screen and (min-width: 400px) {
-//   width: 90px;
-//   height: 90px;
-//   background-size: 90px;
-//   top: 155px;
-//   right: 15%;
-// }
-
-@media only screen and (min-width: 768px) {
-  width: 20%;
-  height: 100px;
-  background-size: 100%;
-}
+  @media only screen and (min-width: 768px) {
+    width: 20%;
+    height: 60px;
+    background-size: 100%;
+  }
 }
 
 .pwc-logo {

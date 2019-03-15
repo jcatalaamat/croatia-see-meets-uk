@@ -38,7 +38,7 @@ const Title = (props) => {
       </div>
       <div className="pwc-logo" />
       <div className="content">
-        <AquaHeader small text="London, 28/29 March 2019 at TechSpace Shoreditch" />
+        <AquaHeader small text="London, 29 March 2019 at TechSpace Shoreditch" />
         <div className="p-max">
           <p>
             <span className="p-contrast">

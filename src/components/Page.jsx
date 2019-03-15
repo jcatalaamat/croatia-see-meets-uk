@@ -5,7 +5,7 @@ import Title from './Title';
 import WhyParticipate from './WhyParticipate';
 import Agenda from './Agenda';
 import EncodeProgramme from './EncodeProgramme';
-import HowToApply from './HowToApply';
+import NewHowToApply from './NewHowToApply';
 import AboutBCCC from './AboutBCCC';
 import Media from './Media';
 import Footer from './Footer';
@@ -59,10 +59,10 @@ class Page extends Component {
           <Agenda />
         </div>
         <div ref={ref => this.programmeRef = ref}>
-          <EncodeProgramme />
+          {/* <EncodeProgramme /> */}
         </div>
         <div ref={ref => this.applyRef = ref}>
-          <HowToApply />
+          <NewHowToApply />
         </div>
         <div ref={ref => this.aboutRef = ref}>
           <AboutBCCC />

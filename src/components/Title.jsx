@@ -42,20 +42,19 @@ const Title = (props) => {
         <div className="p-max">
           <p>
             <span className="p-contrast">
-            A unique 2-day event of
+            A unique event of
             </span>
 
             <div className="p-contrast">
-              <Bullet text="Panel discussions on the future of tech-family of innovations (FinTech, RegTech, HealthTech, GovTech) with a focus on the SEE region" />
+              <Bullet text="Panel discussions on the future of tech-family of innovations (FinTech, RegTech, HealthTech, GovTech) with a focus on the SEE region, featuring an exciting line-up of speakers from all spectrums of the start-up, tech and financial community (please scroll down for the full list of panellists and agenda)" />
               <Bullet text="Pitching for Croatian and SEE start-ups and networking, and" />
-              <Bullet text="professional CPD-accredited business education with world class trainer and educator Gary Nuttall and associates on the basics and practical implementation of distributed ledger technology" />
             </div>
           </p>
 
           <p>
             <span className="p-contrast">
             The event is intended for Croatian, SEE and British business delegates (banking, law, healthcare, insurance,
-corporates, ICT and others) looking to advance their business and technical knowledge and gain insights on the
+corporates, ICT and others) looking to advance their business knowledge and gain insights on the
 digital futures and opportunities in SEE, European and global markets.
             </span>
           </p>

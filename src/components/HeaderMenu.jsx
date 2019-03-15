@@ -11,7 +11,7 @@ const HeaderMenu = props => (
           <li className="menu-flat-item" onClick={props.goToEvent}>The event</li>
           <li className="menu-flat-item" onClick={props.goToWhy}>Why participate</li>
           <li className="menu-flat-item" onClick={props.goToAgenda}>Agenda</li>
-          <li className="menu-flat-item" onClick={props.goToProgramme}>Encode Programme</li>
+          {/* <li className="menu-flat-item" onClick={props.goToProgramme}>Encode Programme</li> */}
           <li className="menu-flat-item" onClick={props.goToApply}>How to apply</li>
           <li className="menu-flat-item" onClick={props.goToBccc}>About BCCC</li>
         </ul>

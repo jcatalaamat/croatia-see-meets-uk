@@ -9,12 +9,6 @@ const WhyParticipate = () => (
         <div className="why-participate__container--text">
           <p>
             <span className="p-contrast">
-          You will get to take home a CPD accredited certificate of your continuous personal development on distributed ledger technology and the knowledge
-transfer of a full day of training and education provided by our expert tutors.
-            </span>
-          </p>
-          <p>
-            <span className="p-contrast">
             You'll meet and network with Croatian and SEE start-up companies and
               London-based professional investors, learning first-hand about some of the hopes, goals,
               highs & lows experienced by tech entrepreneurs and their potential capital partners.
@@ -39,17 +33,6 @@ pitching their business and ideas to experienced and interested UK private angel
               and will be Croatian and SEE in origin or by association.
             </span>
           </p>
-        </div>
-        <div className="why-participate__container--square">
-          <div className="box-purple">
-            <h3 className="box-purple__header">And don't forget</h3>
-            <div className="box-purple__text-container">
-              <span className="box-purple__text">
-              Please follow this webpage for the final list of Pitchers and Investors as well as other
-updates.
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </div>

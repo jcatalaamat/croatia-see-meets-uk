@@ -10,106 +10,34 @@ const Agenda = () => (
   <div className="agenda">
     <div className="content">
       <AquaHeader spacing text="The Agenda" />
-      <PurpleLine text="London 27-30 March 2019" />
-      <PurpleLine text="(event takes place on 28-29 March 2019)" />
+      <PurpleLine text="London 29 March 2019" />
       <div className="paddingTop--small">
-        <PurpleLine spacing text="Venue: TechSpace Shoreditch" />
+        <PurpleLine spacing text="Venue: TechSpace Shoreditch (25 Luke St, London EC2A 4DS)" />
       </div>
     </div>
-    <div className="day-zero">
-      <div className="content">
-        <div className="day-agenda">
-          <Day text="Day 0 (27 March 2019):" />
-          <Bullet text="Arrivals to London" />
-          <Bullet text="Informal welcome dinner and drinks hosted by BCCC and friends" />
-        </div>
-      </div>
-    </div>
-
-    <div className="separator" />
-    <div className="day-one">
-      <div className="content">
-        <div className="day-agenda">
-          <Day text="Day 1 (28 March 2019):" />
-
-          <TimeDay text="Morning & Afternoon (9:30 am - 4:30 pm)" />
-          <Bullet text="INTRO: Agenda and scene setting" />
-          <h5 className="paddingTop--small">CPD-accredited training on distributed ledger technology (blockchain)</h5>
-
-          <p>
-The course is modular in nature and is intended to take the attendee right from first principles and what the various
-terms mean, on to how the technology works and covers use cases across a number of industries to illustrate how
-companies and organisations are exploring and adopting blockchain/Distributed Ledger Technology.
-
-          </p>
-
-          <Bullet text='Practical introduction and insights on the history, development and use of blockchain and distributed
-ledger tech, as well as an insight into crypto-currencies including case studies of this tech in action;
-how "tokens" work; classification of token types; investment options, ICOs and STOs, buying and
-selling crypto-currencies and more.'
-          />
-          {/* <Bullet text="Blockchain coding practices training for novices & intermediates on blockchain technology, coding techniques and technology basics." /> */}
-          <p>
-The British Croatian Chamber of Commerce is itself an accredited training organisation with the UK CPD and our
-education is designed for Chamber members and our guests. You don’t need to be a developer. The goal of this
-education is to introduce you to blockchain's business background and to provide practical examples of how this
-can help – potentially – your organisation, industry or region.
-
-          </p>
-          <p>
-            <b>For the detailed CURRICULUM of this specialist business education please</b>
-            {' '}
-            <a href="../../CURRICULUM.pdf" target="_blank"><span className="purple--underline"><b>click here</b></span></a>
-          </p>
-          {/* <p>
-            Training provided by
-            {' '}
-            <b>Gary Nuttall MBCS CITP</b>
-          , Blockchain / DLT / ICO consultant,
-educator and trainer with 25 years of experience in a variety of IT roles in the
-CPG/FMCG, Commodities Trading, Pharmaceuticals, Retailing and Insurance
-industries and an established profile in Distributed Ledger technologies, and
-associates.
-            {' '}
-            <a href="https://www.linkedin.com/in/garynuttall" rel="noopener noreferrer" target="_blank"><span className="purple">www.linkedin.com/in/garynuttall</span></a>
-          </p>
-          <p>
-          The accreditation for the event training will be provided by the UK
-            {' '}
-            <span className="purple--underline">CPD Accreditation Service</span>
-          .
-          </p> */}
-
-          <TimeDay text="Breaks" />
-          <Bullet text="Coffee, nibbles and smoothies" />
-          <Bullet text="Lunch - healthy and refreshing food for the brain" />
-
-          <TimeDay text="Afternoon" />
-          <Bullet text="Walking tour of Shoreditch (graffiti, history, vibe with a witty local guide)" />
-        </div>
-
-      </div>
-    </div>
-    <div className="separator" />
     <div className="day-two">
       <div className="content">
         <div className="day-agenda">
-          <Day text="Day 2 (29 March 2019):" />
+          <Day text="March 29 2019" />
 
-          <TimeDay text="Morning (start at 9.00 am)" />
-          <Bullet text="Formal welcome and introduction by HM Government Minister / Shadow Minister (to be confirmed)" />
-          <Bullet text="Agenda and scene setting" />
-
-          <TimeDay text="Breaks" />
-          <Bullet text="Coffee, nibbles and smoothies" />
-          <Bullet text="Lunch - healthy and refreshing food for the brain" />
-
+          <TimeDay text="Start at 9.00 am and finish at 2.30 pm" />
+          <Bullet text="Formal welcome and introduction by:" />
           <p>
+            <b>His Excellency Igor Pokaz</b>
+, the Ambassador of Republic of Croatia to the United Kingdom,
             <br />
-            <b>List of Moderators and Panellists</b>
-            {' '}
-            <a href="../../TechFuturesLondon2019-Panellists.pdf" target="_blank"><span className="purple--underline"><b>here</b></span></a>
+
+            <b>John Gasparac</b>
+, PwC Croatia,
+            <br />
+            <b>Charlotte Ruhe</b>
+, Managing Director, Central and South Easter Europe, EBRD,
+
+and
+            <br />
+British Croatian Chamber of Commerce representatives.
           </p>
+          <Bullet text="Agenda and scene setting" />
 
           <Panel
             title="PANEL 1: Let's talk about techs"
@@ -117,18 +45,86 @@ associates.
 HealthTech, Data, Blockchain and it's successors. Foretelling the future and the likely impact of tech on corporate
 business practices today"
           />
+          <p>
+            <b>Moderator: Haydn Jones</b>
+, Founder and Managing Director of Blockchain Hub
+            <br />
+            <br />
+            <b>Panellists: Dr. Maureen Emeagi</b>
+, Founder of LookHealth, Token-operated wealth app for clinician-lead healthcare,
+            {' '}
+            <b>Zaya Kadyrova</b>
+, EBRD Venture Capital Investment Programme, Committee member, Early Stage Tech Investor,
+            {' '}
+            <b>Djuro Stojanovic</b>
+, Uhura Solutions, CEO and Co-Founder
+          </p>
           <Panel
             title="PANEL 2: Show me the money!"
             text="How to appeal to investors, who are they, what peaks their interest, pitfalls of fundraising, striking it big."
           />
+          <p>
+            <b>Moderator: Tony Groom</b>
+            , CEO of K2 Business partners
+            <br />
+            <br />
+            <b>Panellists: Russell Fisher,</b>
+, Nationwide Ventures, Head of Ventures,
+            {' '}
+            <b>Damir Bicanic</b>
+, Funderbeam SEE, CEO,
+            {' '}
+            <b>Vedran Blagus</b>
+, South Central Ventures, Investment Manager,
+            {' '}
+            <b>Clement Bigot</b>
+, Seedrs, Senior Investment Associate,
+            {' '}
+            <b>Flavia Richardson</b>
+, Funding London, Portfolio Manager
+          </p>
           <Panel
             title="PANEL 3: What's happening over there in Southeast Europe?"
             text="Croatia and SEE - spotlight on the region, up and coming start-ups, investment opportunities, market potentials."
           />
+          <p>
+            <b>Moderator: John Gasparac</b>
+, PwC Croatia, Managing Partner
+            <br />
+            <br />
+            <b>Panellists: Simone Zeh Atanovski</b>
+, EBRD, SME Finance and Development,
+            {' '}
+            <b>Filip Ljubic</b>
+, Q Agency, Founder and CEO,
+            {' '}
+            <b>Tom Britton</b>
+, Syndicateroom, Co-Founder,
+            {' '}
+            <b>Tony Kypreos</b>
+, Angel Investor, Impact Ventures and Innovation
+          </p>
           <Panel
             title="PANEL 4: Brexit, London & Fintech: Opportunity or Disaster?"
             text="What sort of life is there after Brexit, should one look at setting up shop in UK and what is there to gain."
           />
+          <p>
+            <b>Moderator: Phillip Rothfield</b>
+, Ex BNY Mellon
+            <br />
+            <br />
+            <b>Panellists: Pier Paolo Mucelli</b>
+, Founder and CEO of TechItalia Lab,
+            {' '}
+            <b>Antonio Falco</b>
+, Small Business Council UK, Entrepreneur,
+            {' '}
+            <b>Derek Goodwin</b>
+, UK Department for International Trade, Head of Entrepreneurship and Tech FDI,
+            {' '}
+            <b>Simon Stockley</b>
+, Cambridge Judge Business School, Senior Faculty in Management Practice
+          </p>
 
           {/* <TimeDay text="Breaks" />
           <Bullet text="Coffee, nibbles and smoothies" />
@@ -139,9 +135,9 @@ business practices today"
             – a very cool place nearby
             </span>
           </div> */}
-          <TimeDay text="Pitch Night (6.00 pm - 8.00 pm)" />
+          <TimeDay text="Pitch Night (5.00 pm - 7.00 pm)" />
           <Bullet
-            text="Approx. 6 start-ups pitching to UK wealth/fund managers, angels, PE/VC etc"
+            text="7/8 Tech Start-ups pitching to 20+ investors (wealth/fund managers, angels, PE/VC etc.)"
           />
         </div>
       </div>

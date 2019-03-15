@@ -14,7 +14,7 @@ const CurrentEvents = () => (
       <h6>*SEE: Southeastern Europe</h6>
     </div>
     <div className="content">
-      <RedHeader small text="London, 28/29 March 2019 at TechSpace Shoreditch" />
+      <RedHeader small text="London, 29 March 2019 at TechSpace Shoreditch" />
       <div className="p-max">
         <p>
           <span className="p-contrast">

@@ -40,7 +40,7 @@ class Menu extends Component {
           <li className="menu-i" onClick={this.goToEvent}>The Event</li>
           <li className="menu-i" onClick={this.goToWhy}>Why Participate</li>
           <li className="menu-i" onClick={this.goToAgenda}>Agenda</li>
-          <li className="menu-i" onClick={this.goToProgramme}>Encode Programme</li>
+          {/* <li className="menu-i" onClick={this.goToProgramme}>Encode Programme</li> */}
           <li className="menu-i" onClick={this.goToApply}>How to apply</li>
           <li className="menu-f" onClick={this.goToBccc}>About BCCC</li>
         </ul>

@@ -74,6 +74,7 @@ digital futures and opportunities in SEE, European and global markets.
         </div>
         <div className="entrepreneurs-logo" />
         <div className="supremefactory-logo" />
+        <div className="bc-logo" />
 
       </div>
 

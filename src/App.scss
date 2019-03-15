@@ -91,12 +91,28 @@ p {
   background-repeat: no-repeat;
   
   width: 165px;
-  height: 135px;
+  height: 70px;
   position: relative;
   
     @media only screen and (min-width: 768px) {
-      width: 75px;
-      height: 150px;
+      width: 150px;
+      height: 155px;
+      background-size: 100%;
+    }
+}
+
+.bc-logo {
+  background-image: url(./assets/png/bc-logo.jpeg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  
+  width: 400px;
+height: 50px;
+position: relative;
+  
+    @media only screen and (min-width: 768px) {
+      width: 300px;
+      height: 107px;
       background-size: 100%;
     }
 }
@@ -111,8 +127,8 @@ height: 50px;
 position: relative;
 
   @media only screen and (min-width: 768px) {
-    width: 170px;
-    height: 60px;
+    width: 300px;
+    height: 105px;
     background-size: 100%;
   }
 }

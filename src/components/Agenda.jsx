@@ -28,15 +28,17 @@ const Agenda = () => (
             <br />
 
             <b>John Gasparac</b>
-, PwC Croatia,
+, PwC Croatia, Managing Partner
             <br />
             <b>Charlotte Ruhe</b>
 , Managing Director, Central and South Easter Europe, EBRD,
 
 and
             <br />
-British Croatian Chamber of Commerce representatives.
-          </p>
+            <b>British Croatian Chamber of Commerce</b>
+{' '}
+representatives.
+</p>
           <Bullet text="Agenda and scene setting" />
 
           <Panel

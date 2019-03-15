@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "acb39a873881e1360f55b60df7837ac2",
-    "url": "/static/media/dubrovnik_bw_op.acb39a87.jpg"
+    "revision": "47d0c83e2f34d5fc379209d44fa06426",
+    "url": "/static/media/bc-logo.47d0c83e.jpeg"
   },
   {
-    "revision": "7c801ff7b7e775f8b035",
-    "url": "/static/css/main.204c9e95.chunk.css"
+    "revision": "8e9306103daa98e7ca0c",
+    "url": "/static/css/main.de3de8cf.chunk.css"
   },
   {
     "revision": "9b0e93ec8b7293c95925",
@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "/static/media/Hero-02_op.1d1c21bf.jpg"
   },
   {
+    "revision": "3a9006517d08ba0412ed1b4df25ab2d0",
+    "url": "/static/media/coworking_bw_op.3a900651.jpg"
+  },
+  {
     "revision": "540fa401dadee1beb8e685d14ffc80d8",
     "url": "/static/media/citiy-bw_op.540fa401.jpg"
   },
@@ -28,24 +32,24 @@ self.__precacheManifest = [
     "url": "/static/media/coworking_space_bw_op.1b312cf1.jpg"
   },
   {
-    "revision": "3a9006517d08ba0412ed1b4df25ab2d0",
-    "url": "/static/media/coworking_bw_op.3a900651.jpg"
-  },
-  {
-    "revision": "776e5669df4be385c4f03538f188fbbf",
-    "url": "/static/media/supremefactory-logo-square.776e5669.jpg"
+    "revision": "acb39a873881e1360f55b60df7837ac2",
+    "url": "/static/media/dubrovnik_bw_op.acb39a87.jpg"
   },
   {
     "revision": "6fe98b028af44dc48f6a99874852ab17",
     "url": "/static/media/gerkhin-bw_op.6fe98b02.jpg"
   },
   {
-    "revision": "7c801ff7b7e775f8b035",
-    "url": "/static/js/main.7c801ff7.chunk.js"
-  },
-  {
     "revision": "55b32164af050ab47e6b28673ceafedd",
     "url": "/static/media/entrepreneurs.55b32164.jpg"
+  },
+  {
+    "revision": "8e9306103daa98e7ca0c",
+    "url": "/static/js/main.8e930610.chunk.js"
+  },
+  {
+    "revision": "776e5669df4be385c4f03538f188fbbf",
+    "url": "/static/media/supremefactory-logo-square.776e5669.jpg"
   },
   {
     "revision": "b7e83d2bcbd978509a18dc76547adedd",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png"
   },
   {
-    "revision": "eac71cdd84904f332f1dc7af6cd42427",
+    "revision": "a5c905643d1b4ca65a3ec2535df1e3bb",
     "url": "/index.html"
   }
 ];

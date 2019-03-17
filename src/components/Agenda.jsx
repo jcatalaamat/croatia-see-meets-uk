@@ -36,9 +36,9 @@ const Agenda = () => (
 and
             <br />
             <b>British Croatian Chamber of Commerce</b>
-{' '}
+            {' '}
 representatives.
-</p>
+          </p>
           <Bullet text="Agenda and scene setting" />
 
           <Panel
@@ -104,10 +104,10 @@ business practices today"
 , Syndicateroom, Co-Founder,
             {' '}
             <b>Tony Kypreos</b>
-, Angel Investor, Impact Ventures and Innovation
+, UK Global Entrepreneur Programme, Impact Ventures and Innovation
           </p>
           <Panel
-            title="PANEL 4: Brexit, London & Fintech: Opportunity or Disaster?"
+            title="PANEL 4: Brexit, London & Tech: Opportunity or Disaster?"
             text="What sort of life is there after Brexit, should one look at setting up shop in UK and what is there to gain."
           />
           <p>
@@ -125,7 +125,7 @@ business practices today"
 , UK Department for International Trade, Head of Entrepreneurship and Tech FDI,
             {' '}
             <b>Simon Stockley</b>
-, Cambridge Judge Business School, Senior Faculty in Management Practice
+, Cambridge Judge Business School, Senior Faculty in Management Practice & Entrepreneurship
           </p>
 
           {/* <TimeDay text="Breaks" />

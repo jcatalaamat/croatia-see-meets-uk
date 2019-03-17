@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.de3de8cf.chunk.css",
-  "main.js": "/static/js/main.8e930610.chunk.js",
-  "main.js.map": "/static/js/main.8e930610.chunk.js.map",
+  "main.js": "/static/js/main.5ec0bbb0.chunk.js",
+  "main.js.map": "/static/js/main.5ec0bbb0.chunk.js.map",
   "static/js/1.9b0e93ec.chunk.js": "/static/js/1.9b0e93ec.chunk.js",
   "static/js/1.9b0e93ec.chunk.js.map": "/static/js/1.9b0e93ec.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -9,6 +9,6 @@
   "static/media/App.scss": "/static/media/Croatia_event_web_2-12.b7a8b4dc.png",
   "static/css/main.de3de8cf.chunk.css.map": "/static/css/main.de3de8cf.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d46d3b055b454282555d19981fe5d65c.js": "/precache-manifest.d46d3b055b454282555d19981fe5d65c.js",
+  "precache-manifest.e1db47f3ad376f5d76557fe222b084de.js": "/precache-manifest.e1db47f3ad376f5d76557fe222b084de.js",
   "service-worker.js": "/service-worker.js"
 }

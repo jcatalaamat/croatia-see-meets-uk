@@ -119,7 +119,7 @@ business practices today"
 , Founder and CEO of TechItalia Lab,
             {' '}
             <b>Antonio Falco</b>
-, Small Business Council UK, Entrepreneur,
+, The Sales Director, Author and Speaker,
             {' '}
             <b>Derek Goodwin</b>
 , UK Department for International Trade, Head of Entrepreneurship and Tech FDI,

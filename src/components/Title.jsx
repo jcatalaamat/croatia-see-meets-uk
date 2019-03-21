@@ -66,8 +66,7 @@ digital futures and opportunities in SEE, European and global markets.
             </span>
             <div className="p-contrast">
               <Bullet text="With support of PwC Croatia," />
-              <Bullet text="With support of Department of International Trade," />
-              <Bullet text="Under the auspices of Embassy of the Republic of Croatia in the UK, and" />
+              <Bullet text="With support of Department of International Trade, and" />
               <Bullet text="in partnership with and British Serbian Chamber of Commerce" />
             </div>
           </p>

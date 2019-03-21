@@ -23,10 +23,6 @@ const Agenda = () => (
           <TimeDay text="Start at 9.00 am and finish at 2.30 pm" />
           <Bullet text="Formal welcome and introduction by:" />
           <p>
-            <b>His Excellency Igor Pokaz</b>
-, the Ambassador of Republic of Croatia to the United Kingdom,
-            <br />
-
             <b>John Gasparac</b>
 , PwC Croatia, Managing Partner
             <br />
@@ -59,7 +55,10 @@ business practices today"
 , EBRD Venture Capital Investment Programme, Committee member, Early Stage Tech Investor,
             {' '}
             <b>Djuro Stojanovic</b>
-, Uhura Solutions, CEO and Co-Founder
+, Uhura Solutions, CEO and Co-Founder,
+            {' '}
+            <b>Tanja Kuzman</b>
+, Startup & Innovation Manager, PwC Croatia
           </p>
           <Panel
             title="PANEL 2: Show me the money!"

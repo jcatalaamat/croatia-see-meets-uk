@@ -58,7 +58,7 @@ business practices today"
 , Uhura Solutions, CEO and Co-Founder,
             {' '}
             <b>Tanja Kuzman</b>
-, Startup & Innovation Manager, PwC Croatia
+, Startup & Innovation Manager, PwC Serbia
           </p>
           <Panel
             title="PANEL 2: Show me the money!"
